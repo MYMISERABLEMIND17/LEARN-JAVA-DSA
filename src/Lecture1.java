@@ -21,5 +21,8 @@
 //consider int a = 10
 //1} stack memory => a(_reference variable )
 //2} heap memory => 10 (_object)
+// so a is just pointing that toward the heap memory , in which 10 is stored
+
+//garbage commlection => if there is any object which do not have any reference variable they will be deleted by automatically
 
 
