@@ -19,7 +19,7 @@
 
 //memory management
 //consider int a = 10
-//1} stack memory => a(_referencevariable )
+//1} stack memory => a(_reference variable )
 //2} heap memory => 10 (_object)
 
 
