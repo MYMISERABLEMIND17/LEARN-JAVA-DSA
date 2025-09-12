@@ -12,7 +12,13 @@ public class Lecture4{
         System.out.println("my name is x y z");
 
         Scanner input  = new Scanner(System.in);
-        System.out.println(input.next());
+//        System.out.println(input.next());
+
+
+//        System.out.print("ENTER YOUR NAME => ");
+//        String name = input.nextLine() ;
+//        System.out.println(name);
+
 
 
 
