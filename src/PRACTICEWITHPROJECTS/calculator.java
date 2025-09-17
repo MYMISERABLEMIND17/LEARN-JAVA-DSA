@@ -11,19 +11,12 @@ public class calculator {
     public static void main(String[] args) {
 
 
-
-
         Scanner input = new Scanner(System.in);
         System.out.println(" enter the first number ");
         int first = input.nextInt();
         System.out.println(" enter the first number ");
         int second = input.nextInt();
 
-        // select the operation
-        String operation1 = input.nextLine();
-        String operation2 = input.nextLine();
-        String operation3 = input.nextLine();
-        String operation4 = input.nextLine();
 
 
 
