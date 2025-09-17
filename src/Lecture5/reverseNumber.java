@@ -1,5 +1,4 @@
 package Lecture5;
-
 import java.util.Scanner;
 
 public class reverseNumber {
@@ -10,6 +9,14 @@ public class reverseNumber {
         System.out.println("number you want to rearrange = ");
         int number = input.nextInt() ;
 
+        int ans = 0 ;
+        while(number >0 ){
+            int remai = number %10 ;
+            number = number/10 ;
+            ans = ans*10 +remai ;
 
+            }
+        System.out.println(ans);
+        }
     }
-}
+
