@@ -7,7 +7,7 @@ public class swap {
 
             int temp = a ;
             a = b ;
-            temp = b ;
+            b = temp  ;
 
         System.out.println(a);
         System.out.println(b);
