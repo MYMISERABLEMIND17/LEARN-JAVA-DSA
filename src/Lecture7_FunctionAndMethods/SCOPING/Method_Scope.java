@@ -2,6 +2,8 @@ package Lecture7_FunctionAndMethods.SCOPING;
 
 public class Method_Scope {
     public static void main(String[] args) {
+        int a = 10000 ;
+        System.out.println(a);
         random() ;
     }
 
@@ -10,6 +12,9 @@ public class Method_Scope {
         int b = 30 ;
         int sum = a +b ;
         System.out.println( sum );
-    };
+
+        // int "a" variable is seperate for this method , and seperate for main method also . bcoz int a in random() method is method scope ;
+
+     };
 
 }
