@@ -10,8 +10,12 @@ public class Basics {
 //        Student kunal;
 //        kunal = new Student() ;
 
-        Student kunal = new Student() ;
-        System.out.println(kunal.name);
+
+
+
+
+        Student random = new Student(33, " home " , 43) ;
+        System.out.println(random.marks + " "+  random.name);
 
     }
 }
@@ -22,6 +26,15 @@ public class Basics {
         int rno ;
         String name ;
         float marks ;
+
+
+        Student ( int rno , String name , float marks ){
+            this.marks = marks ;
+            this.rno = rno ;
+            this.name = name ;
+        }
+
+
     }
 
 
@@ -31,3 +44,4 @@ public class Basics {
 // OBJECT IS A REAL THINGS WHICH ARE REALLY EXISTED.
 //.(DOT OPERATOR ) OR A SEPERATOR ,THIS HELP TO FIND THE VALUE OF THE OBJECT
 
+// CONSTRUCTOR =>
