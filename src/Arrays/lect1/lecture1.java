@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.Arrays;
+package Arrays.lect1;
 
 public class lecture1 {
     public static void main(String[] args) {
