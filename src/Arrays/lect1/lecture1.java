@@ -15,7 +15,7 @@ public class lecture1 {
         int[] rollno = new int[5] ;
         // new int[5] => at the runtime the memory will be allocated
         // int[] rollno => this thing allocates the memory at the compile time
-        // new => it is used to create a object
+            // new => it is used to create a object
 
         int[] rno = { 33 ,44, 22 ,55 ,54,32} ; // this this is direct declaration
 
@@ -41,8 +41,6 @@ public class lecture1 {
             System.out.println(strarr[i]);
             i++ ;
         }
-
-
         //  NOW THE MAIN POINT COMES , ACTUALLY String[] strarr = new String[9] ; THIS LINE WILL CREATE 9 NEW OBJECTS THATS WHY IT IS GIVING US NULL , BCOZ IT IS A OBJECT WHICH IS DECLARED
 
 

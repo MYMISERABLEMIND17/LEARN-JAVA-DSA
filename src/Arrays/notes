@@ -15,3 +15,13 @@ int[] money = new int[6] ; now we can break this statement in 2 parts
 2> new int[6] => this will be created on the runtime and the memory will be allocated in heap bcoz it is an object
  > heap object are not continuous in heap( memory )
  > that's the reason that it is not necessary that the arrays are continuous in java , it fully depends on java that it will be continuous or not
+ > new keyword => it is used to create the objects
+
+--> in java only the primitive data type will be stored in the stack memory, but all the other likr hashmap  , String and all will be stored in the heap memory
+ > primitives => datatype which cannot be broken down further ;
+
+--> there are different ways by which we can access the different elements on the different index , we use different type of loops to find the different elements
+  1>for loop
+  2>while loop
+  3>for each loop
+
