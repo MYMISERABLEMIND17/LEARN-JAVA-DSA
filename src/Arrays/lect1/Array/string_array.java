@@ -1,4 +1,4 @@
-package Arrays.lect1;
+package Arrays.lect1.Array;
 
 import java.util.Arrays;
 

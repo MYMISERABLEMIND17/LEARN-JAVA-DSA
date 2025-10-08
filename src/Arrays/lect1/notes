@@ -43,4 +43,6 @@ int[] money = new int[6] ; now we can break this statement in 2 parts
         {4,5,6},
         {7,8,9}
     }
+
+
 }

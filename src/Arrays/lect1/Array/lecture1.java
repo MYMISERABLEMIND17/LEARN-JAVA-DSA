@@ -1,4 +1,4 @@
-package Arrays.lect1;
+package Arrays.lect1.Array;
 
 public class lecture1 {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package Arrays.lect1;
-
-import java.util.Arrays;
+package Arrays.lect1.multidimensionalArray;
 
 public class MultiDimensional {
     public static void main(String[] args) {
@@ -18,7 +16,8 @@ public class MultiDimensional {
                 {7,8,9}
         };
 
-        System.out.println(array2d[1]);
+        System.out.println(array2d[1][2]); // this will give me 6
+
 
     }
 }

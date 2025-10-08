@@ -1,6 +1,5 @@
-package Arrays.lect1;
+package Arrays.lect1.Array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class input {
