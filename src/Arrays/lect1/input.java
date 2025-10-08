@@ -1,5 +1,6 @@
 package Arrays.lect1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class input {
@@ -20,10 +21,14 @@ public class input {
 //         for(int j=0 ; j<arr.length ; j++ ){
 //            System.out.println(arr[j]);
 //        }
+
 // for each
-        for(int num : arr){
-                 System.out.println(num);
-        }
+//        for(int num : arr){
+//                 System.out.println(num);
+//        }
+
+//        System.out.println(Arrays.toString(arr));
+
 
 
     }

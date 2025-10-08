@@ -21,7 +21,17 @@ int[] money = new int[6] ; now we can break this statement in 2 parts
  > primitives => datatype which cannot be broken down further ;
 
 --> there are different ways by which we can access the different elements on the different index , we use different type of loops to find the different elements
-  1>for loop
-  2>while loop
+  1>for loop => we all know the syntax of it
+
+  2>while loop => we all know the syntax of it
+
   3>for each loop
+    // for each
+    //        for(int num : arr){
+    //                 System.out.println(num);
+    //        }
+
+
+  4>convert whole array in string by .toString method and then print the string
+        System.out.println(Arrays.toString(arr));   // here arr is the variable name is which array is stored
 

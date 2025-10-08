@@ -28,7 +28,7 @@ public class lecture1 {
             n++ ;
         }
 
-//----------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------
 // only primitiver are stored in the stack memory , rest of all will be stored in the hea momory
         // what the data type becomes String
         String[] strarr = new String[9] ;
