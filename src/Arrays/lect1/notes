@@ -35,7 +35,6 @@ int[] money = new int[6] ; now we can break this statement in 2 parts
   4>convert whole array in string by .toString method and then print the string
         System.out.println(Arrays.toString(arr));   // here arr is the variable name is which array is stored
 
-
 --> 2D Array {
     // consider it as the array of arrays
     arr = {
@@ -43,6 +42,10 @@ int[] money = new int[6] ; now we can break this statement in 2 parts
         {4,5,6},
         {7,8,9}
     }
+    ARRAY LIST
+    >> IF I WANT TO INPUT THE N NUMBER OF ELEMENTS IN AN ARRAY WE CAN USE ARRAY LIST
+        syntax = ArrayList<Integer>list = new ArrayList<>(SIZE) ;
+        if you type (list.) then you will get lots of items ,and you can modify it
 
 
 }
