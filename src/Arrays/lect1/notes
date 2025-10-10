@@ -46,6 +46,6 @@ int[] money = new int[6] ; now we can break this statement in 2 parts
     >> IF I WANT TO INPUT THE N NUMBER OF ELEMENTS IN AN ARRAY WE CAN USE ARRAY LIST
         syntax = ArrayList<Integer>list = new ArrayList<>(SIZE) ;
         if you type (list.) then you will get lots of items ,and you can modify it
-
+    >>
 
 }
