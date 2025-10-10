@@ -19,24 +19,18 @@ public class Question1 {
         System.out.print("HOW MANY ELEMENT YOU WANT IN ARRAY = ");
         int element = inp.nextInt(); // total no of elements by user
         int[] myArr = new int[element];
-//        int[] newArr = new int[element] ;
-
-        for(int i = 0 ; i<element ; i++){
-            myArr[i] = inp.nextInt() ;
-        }
-        for(int j = 0 ; j<myArr.length; j++){
-            int[] optArr = new int[myArr.length] ;
-            System.out.println(j);
+        // input on each index of array
+        for(int i = 0 ; i<element ; i++) {
+            myArr[i] = inp.nextInt();
         }
 
 
-        System.out.println(Arrays.toString(myArr));
-//        System.out.println(Arrays.toString(newArr));
-
-
-
-
-
+//        int[] optArr = new int[myArr.length] ;
+        for(int j =0 ; j<myArr.length; j++){
+//            System.out.println(myArr[j]);
+//            int[] secArr = {myArr[j]};
+            System.out.print(myArr[myArr[j]]+ " ");
+        }
 
     }
 }
