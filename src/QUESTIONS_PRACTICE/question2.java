@@ -9,8 +9,6 @@ public class question2 {
         Scanner inp = new Scanner(System.in);
         System.out.print("HOW MANY ELEMENTS DO YOU WANT = ");
         int element = inp.nextInt();
-
-
         int[] nums = new int[element];
 
         for (int i = 0; i <= element - 1; i++) {
