@@ -14,16 +14,15 @@ public class Question3 {
             nums[i] = inp.nextInt();
         }
 // input complete
-        int x ;
-        int y ;
-        for (int j = 0 ; j<nums.length ;j++ ){
-            x = nums[j] ;
-            System.out.println(x);
+        int[] output = new int[nums.length-1] ;
+//        int previousnum = 0 ;
+//        int secpreviousnum = 0 ;
+        int sum  = 0 ;
+        for(int j= 0 ; j<=nums.length-1; j++){
+            sum = sum + nums[j] ;
+            System.out.println(sum);
 
         }
-
-
-
         }
 
     }
