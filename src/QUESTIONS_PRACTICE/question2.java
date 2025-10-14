@@ -15,29 +15,22 @@ public class question2 {
             nums[i] = inp.nextInt();
         }
 
-        ;
-        for (int j = 0; j < 1; j++) {
-            System.out.print("[");
-            for (int k = 0; k <= element - 1; k++) {
-                int[] output = new int[(nums.length)];
-                output[k] = nums[k];
-                System.out.print(output[k]+",");
+        int[] ans = new int[nums.length];
+        int mid = nums.length/2  ;
+        for(int j = 0 ; j<= nums.length-1 ;j++){
+            if(j<=mid-1){
+                for(int k = 0 ; k<=nums.length-1 ; k++){
+                    ans[k] = nums[k] ;
+                } ;
             }
-            for (int b = 0; b <= element-1; b++) {
-                int[] output = new int[(nums.length)];
-                output[b] = nums[b];
-                System.out.print(output[b] +",");
+            else{
+                for(int k = 0 ; k<=nums.length-1 ; k++){
+                    ans[mid+k] = nums[k] ;
+                }
             }
-            System.out.print("]");
-            }
-//        for(int a = 0 ; a<1 ; a++){
-//            for (int b = 0 ; b <= element-1 ;b++ ){
-//                int[] output = new int[(nums.length)] ;
-//                output[b] = nums[b] ;
-//                System.out.println(output[b]);
-//            }
-//        }
-//        System.out.println();
+            System.out.println(Arrays.toString(ans));
+        }
+
 
         }
     }
