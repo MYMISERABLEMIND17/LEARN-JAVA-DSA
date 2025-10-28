@@ -13,7 +13,7 @@ public class input {
                 {3,5,8}
         };
 
-//        System.out.println(myArr2d.length);//==> this will give me the total number of rows
+//       System.out.println(myArr2d.length);//==> this will give me the total number of rows
         System.out.println(myArr2d[1].length);
         for(int row = 0; row < myArr2d.length ; row++){
             for(int col = 0 ; col < myArr2d[row].length ; col++ ){
