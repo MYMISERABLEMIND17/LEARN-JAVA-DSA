@@ -1,4 +1,4 @@
-package Arrays.lect1.multidimensionalArray;
+package lect1.multidimensionalArray;
 
 public class MultiDimensional {
     public static void main(String[] args) {

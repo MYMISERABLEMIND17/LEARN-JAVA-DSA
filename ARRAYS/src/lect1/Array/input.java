@@ -1,4 +1,4 @@
-package Arrays.lect1.Array;
+package lect1.Array;
 
 import java.util.Scanner;
 

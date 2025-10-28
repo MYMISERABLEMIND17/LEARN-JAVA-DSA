@@ -1,4 +1,4 @@
-package Arrays.lect1.multidimensionalArray;
+package lect1.multidimensionalArray;
 
 import java.util.Arrays;
 import java.util.Scanner;
