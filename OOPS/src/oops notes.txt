@@ -1,0 +1,4 @@
+class =>  is just a logical construct
+object  => physical reality - and actually occuping space
+
+
