@@ -32,12 +32,17 @@ public class SearchInRange {
 
 
 
-    public static void loop (int Arr[] , int start , int end, int val ){
-        while(start<=end){
-            if (val == Arr[start]){
-                System.out.println("value found at "+ start + " index");
-            }
-            start++ ;
+    public static String loop (int Arr[] , int start , int end, int val ) {
+        if (Arr.length == 0) {
+            return "array not found ";
         }
+
+        while (start <= end) {
+            if (val == Arr[start]) {
+                System.out.println("value found at " + start + " index");
+            }
+            start++;
+        }
+        return "search complete " ;
     }
 }
