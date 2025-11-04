@@ -16,7 +16,10 @@ public class SearchInString {
         for (int j = 0; j <type.length()-1 ; j++) {
             if(target == type.charAt(j)){
                 System.out.println("character found at index " + j);
-            };
+            }
+            else{
+                System.out.println("val not found ");
+            }
         }
     }
 }
