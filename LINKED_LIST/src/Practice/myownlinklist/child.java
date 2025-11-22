@@ -28,6 +28,20 @@ public class child {
             size++ ;
         }
 
+        public void last (int val ){
+            Node node  = new  Node() ;
+            tail.next = node ;
+            node.data = val ;
+            node.next = null ;
+
+            if( tail == null ){
+                tail = head ;
+            }
+            size++ ;
+        }
+
+
+
         public void display(){
             Node temp = head ;
 
