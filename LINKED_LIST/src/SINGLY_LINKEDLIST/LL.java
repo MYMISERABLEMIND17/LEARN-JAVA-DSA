@@ -20,7 +20,7 @@ public class LL {
     private  int size ;
 
     public LL (){
-        this.size = size ;
+        this.size = 0 ;
     }
 
     public void InsertAtBeginning(int data){

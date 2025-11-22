@@ -2,59 +2,40 @@ package Practice.myownlinklist;
 
 public class child {
 
-    static class Node{
-        int data ;
-        Node next  ;
-    }
-
     static class link{
+
+        class Node {
+            int data ;
+            Node next ;
+        }
+
         Node head ;
         Node tail ;
-        int size ;
+        int size  ;
 
-        link(){
-            this.size = 0 ;
-        }
-        public void first(int val ){
+        public void beg(int val){
             Node node = new Node();
-            node.data = val ;
-
+            node.data =  val ;
             node.next = head ;
             head = node ;
 
-            if( tail == null ){
+            if(tail == null){
                 tail = head ;
             }
+
             size++ ;
+
         }
 
-        public void last (int val ){
-            Node node  = new  Node() ;
-            tail.next = node ;
-            node.data = val ;
-            node.next = null ;
+        public void disp(){
+            Node temp =head ;
 
-            if( tail == null ){
-                tail = head ;
-            }
-            size++ ;
-        }
-
-
-
-        public void display(){
-            Node temp = head ;
-
-            while(temp !=null ){
+            while( temp!=null ){
                 System.out.println(temp.data);
-
-                temp =temp.next ;
+                temp = temp.next ;
             }
+
         }
+
     }
-
-
-
-
-
 }
