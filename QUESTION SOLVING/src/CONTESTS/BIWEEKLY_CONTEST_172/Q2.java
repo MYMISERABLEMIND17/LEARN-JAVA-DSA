@@ -1,4 +1,4 @@
-package BIWEEKLY_CONTEST_172;
+package CONTESTS.BIWEEKLY_CONTEST_172;
 
 public class Q2 {
     public static void main(String[] args) {
