@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Problem_189 {
     public static void main(String[] args) {
         int[]  arr = {1,2,3,4,5,6,7 } ;
-        int n = 2 ;
+        int n = 3 ;
         rotate(arr , n );
     }
     static void rotate(int[] nums , int k  ){
