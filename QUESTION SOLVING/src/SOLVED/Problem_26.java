@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package SOLVED;
+
 import java.util.Arrays;
 
 public class Problem_26 {
