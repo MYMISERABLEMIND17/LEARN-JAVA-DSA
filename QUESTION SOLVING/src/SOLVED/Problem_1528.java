@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_1528 {
     public static void main(String[] args) {
         String s = "codeleet" ;

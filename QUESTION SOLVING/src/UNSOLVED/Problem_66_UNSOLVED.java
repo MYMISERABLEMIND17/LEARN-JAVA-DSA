@@ -1,3 +1,5 @@
+package UNSOLVED;
+
 import java.util.Arrays;
 
 public class Problem_66_UNSOLVED {

@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_1295 {
     public static void main(String[] args) {
         int[] arr ={555,901,482,1771} ;
