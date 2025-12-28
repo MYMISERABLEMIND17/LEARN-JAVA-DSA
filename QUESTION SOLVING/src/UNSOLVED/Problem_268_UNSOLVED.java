@@ -1,45 +1,24 @@
 package UNSOLVED;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Problem_268_UNSOLVED {
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in );
-        System.out.print("ENTER THE TOTAL NUMBERS = ");
-        int elem = inp.nextInt() ;
-        int[] myarr = new int[elem];
+        int[] arr = {0,1} ;
 
-        input(myarr ,elem );
-        swaplogic(myarr);
-
+        System.out.println(logic(arr));
     }
-    static void input(int[] arr , int elem ) {
-        Scanner inp = new Scanner(System.in);
-        for (int i = 0; i <= elem - 1; i++) {
-            arr[i] = inp.nextInt();
-        }
-        System.out.println(Arrays.toString(arr));
-    }
+    static int  logic(int[] nums) {
+        int x = 0 ;
+        for (int i = 0; i <nums.length ; i++) {
+            for (int j = 0; j < nums.length ; j++) {
+                if(i == nums[j]){
+                    break;
+                }
+                else if (i != nums[j]) {
+                    x = i ;
+                }
 
-    static void swaplogic(int[] arr) {
-        // first sort the array
-        int i = 0;
-        while (i <= arr.length - 1) {
-            if (arr[i] == i) {
-                i++;
-            } else if (arr[i] != i) {
-                // swap
-                int temp = arr[i];
-                arr[i] = i;
-                i = temp;
             }
         }
-        System.out.println(Arrays.toString(arr));
+        return x  ;
     }
-
-
-
-
-
 }

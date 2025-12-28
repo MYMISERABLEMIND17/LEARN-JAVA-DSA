@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_485 {
     public static void main(String[] args) {
 
