@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_169 {
     public static void main(String[] args) {
         int[] arr ={6,6,6,7,7} ;
