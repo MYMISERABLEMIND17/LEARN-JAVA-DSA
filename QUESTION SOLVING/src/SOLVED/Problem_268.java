@@ -1,6 +1,6 @@
-package UNSOLVED;
+package SOLVED;
 
-public class Problem_268_UNSOLVED {
+public class Problem_268 {
     public static void main(String[] args) {
         int[] arr = {0, 1 } ;
         logic(arr);
