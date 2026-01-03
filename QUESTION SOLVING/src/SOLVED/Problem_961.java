@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_961 {
     public static void main(String[] args) {
         int[] nums = {5,1,5,2,5,3,5,4} ;
