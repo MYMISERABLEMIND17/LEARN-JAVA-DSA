@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91c33f4a-9355-48e8-acd9-8ec46b9605dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RECURSION/src/lecture_2/question1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RECURSION/src/rec_binarysearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENDSEM PREP" beforeDir="false" afterPath="$PROJECT_DIR$/../ENDSEM PREP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS/src/LECT_1_MODIFY/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPS/src/LECT_1_MODIFY/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECURSION/src/lect1.java" beforeDir="false" afterPath="$PROJECT_DIR$/RECURSION/src/lect1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STRING/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STRING/src/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STRING/src/prettyprinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/prettyprinting.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RECURSION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="37n1mU6Q2PMULgY2WpsKDyn7yhI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.lect1.executor": "Run",
+    "Application.question1.executor": "Run",
+    "Application.rec_binarysearch.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/tomar-parakram/Music/CODE/LEARN-JAVA-DSA/RECURSION"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91c33f4a-9355-48e8-acd9-8ec46b9605dd" name="Changes" comment="" />
+      <created>1767524179543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767524179543</updated>
+    </task>
+    <servers />
+  </component>
+</project>
