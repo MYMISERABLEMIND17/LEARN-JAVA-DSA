@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c33f4a-9355-48e8-acd9-8ec46b9605dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RECURSION/src/lecture_2/question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RECURSION/src/rec_binarysearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ENDSEM PREP" beforeDir="false" afterPath="$PROJECT_DIR$/../ENDSEM PREP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPS/src/LECT_1_MODIFY/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPS/src/LECT_1_MODIFY/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RECURSION/src/lect1.java" beforeDir="false" afterPath="$PROJECT_DIR$/RECURSION/src/lect1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STRING/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STRING/src/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STRING/src/prettyprinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/prettyprinting.java" afterDir="false" />
-    </list>
+    <list default="true" id="91c33f4a-9355-48e8-acd9-8ec46b9605dd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RECURSION" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/RECURSION/src/lecture_2/question1.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -45,7 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.lect1.executor": "Run",
-    "Application.question1.executor": "Run",
+    "Application.question1.executor": "Debug",
     "Application.rec_binarysearch.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,5 +63,20 @@
       <updated>1767524179543</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/RECURSION/src/lecture_2/question1.java</url>
+          <line>3</line>
+          <properties class="lecture_2.question1" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
