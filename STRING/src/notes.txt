@@ -1,0 +1,10 @@
+there are 2 objects of string class
+a = pstttt
+b = pstttt
+these 2 reference variable are pointing toward the same value , but  if you change the value of one reference variable , the second one will not changed
+
+if we write a == b
+this will give us true if reference riables pointing to the same object
+
+if you only wants to check the value use .equals method
+

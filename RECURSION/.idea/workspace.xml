@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c33f4a-9355-48e8-acd9-8ec46b9605dd" name="Changes" comment="" />
+    <list default="true" id="91c33f4a-9355-48e8-acd9-8ec46b9605dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../QUESTION SOLVING/src/Problem_912.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENDSEM PREP" beforeDir="false" afterPath="$PROJECT_DIR$/../ENDSEM PREP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS/src/LECT_1_MODIFY/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPS/src/LECT_1_MODIFY/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QUESTION SOLVING/src/Problem_2419.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QUESTION SOLVING/src/SOLVED/Problem_2419.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECURSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STRING/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STRING/src/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STRING/src/prettyprinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STRING/src/prettyprinting.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RECURSION" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/RECURSION/src/lecture_2/question1.java" root0="FORCE_HIGHLIGHTING" />
@@ -42,11 +54,30 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tomar-parakram/Music/CODE/LEARN-JAVA-DSA/RECURSION"
+    "last_opened_file_path": "/home/tomar-parakram/Music/CODE/LEARN-JAVA-DSA"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/out/production/RECURSION/lecture_2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="RECURSION" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="RECURSION" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,20 +94,5 @@
       <updated>1767524179543</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/RECURSION/src/lecture_2/question1.java</url>
-          <line>3</line>
-          <properties class="lecture_2.question1" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

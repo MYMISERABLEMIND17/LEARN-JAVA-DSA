@@ -4,7 +4,7 @@ public class Problem_2419 {
     public static void main(String[] args) {
         int[] arr = {-1 , 1 } ;
 
-        logic(arr);
+        System.out.println(logic(arr));
     }
     static int[] logic(int[] arr){
         int[] positive = new int[arr.length/2] ;
