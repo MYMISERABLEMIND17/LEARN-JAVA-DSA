@@ -11,7 +11,6 @@ public class question3 {
         if(x%10 == x ){
             return  x ;
         }
-        System.out.println(--x);
         return  x%10 * logic((x/10) );
     }
 }
