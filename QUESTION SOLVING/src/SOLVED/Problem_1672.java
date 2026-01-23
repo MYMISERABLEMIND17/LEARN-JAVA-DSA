@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_1672 {
     public static void main(String[] args) {
         int[][] arr = {{1,5},{7,3}, {3,5}} ;
