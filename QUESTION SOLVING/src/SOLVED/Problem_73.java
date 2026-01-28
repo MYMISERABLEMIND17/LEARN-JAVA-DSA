@@ -1,4 +1,4 @@
-package UNSOLVED;
+package SOLVED;
 
 import java.util.Arrays;
 
