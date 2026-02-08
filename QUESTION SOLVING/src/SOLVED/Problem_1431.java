@@ -1,6 +1,4 @@
-package FUTURE_SUBMIT;
-
-import java.util.Arrays;
+package SOLVED;
 
 public class Problem_1431 {
     public static void main(String[] args) {
@@ -8,7 +6,7 @@ public class Problem_1431 {
         int extra = 3 ;
         logic(arr , extra) ;
     }
-    static void logic(int[] nums , int extra ){
+    static boolean[] logic(int[] nums , int extra ){
         int max = nums[0] ;
         boolean[] arr = new boolean[nums.length] ;
         for (int i = 0; i <nums.length ; i++) {
@@ -27,6 +25,6 @@ public class Problem_1431 {
         }
 
 
-        System.out.println(Arrays.toString(arr));
+        return arr ;
     }
 }

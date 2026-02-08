@@ -1,4 +1,4 @@
-package FUTURE_SUBMIT;
+package SOLVED;
 
 import java.util.ArrayList;
 import java.util.Arrays;
