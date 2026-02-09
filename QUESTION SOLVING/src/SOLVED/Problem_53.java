@@ -1,4 +1,4 @@
-package UNSOLVED;
+package SOLVED;
 
 public class Problem_53 {
     public static void main(String[] args) {
