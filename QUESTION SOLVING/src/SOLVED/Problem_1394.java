@@ -1,4 +1,4 @@
-package FUTURE_SUBMIT;
+package SOLVED;
 
 public class Problem_1394 {
 
@@ -18,6 +18,7 @@ public class Problem_1394 {
             }
             if(count == nums[i]  && nums[i] > lucknum){
                 lucknum = nums[i] ;
+                continue;
             }
         }
         return lucknum ;
