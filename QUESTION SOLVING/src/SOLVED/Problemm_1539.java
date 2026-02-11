@@ -1,8 +1,8 @@
-    import java.util.ArrayList;
-    import java.util.Arrays;
-    import java.util.List;
+package SOLVED;
 
-    public class Problemm_1539 {
+import java.util.ArrayList;
+
+public class Problemm_1539 {
         public static void main(String[] args) {
             int[] arr = {1};
             int n = 996;
