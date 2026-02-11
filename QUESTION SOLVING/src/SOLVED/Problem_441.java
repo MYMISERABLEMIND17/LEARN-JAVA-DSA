@@ -1,4 +1,4 @@
-package FUTURE_SUBMIT;
+package SOLVED;
 
 public class Problem_441 {
     public static void main(String[] args) {
