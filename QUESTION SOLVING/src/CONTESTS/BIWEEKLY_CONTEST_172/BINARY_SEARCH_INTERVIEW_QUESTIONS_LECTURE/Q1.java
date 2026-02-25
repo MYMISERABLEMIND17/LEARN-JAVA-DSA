@@ -1,4 +1,4 @@
-package BINARY_SEARCH_INTERVIEW_QUESTIONS_LECTURE;
+package CONTESTS.BIWEEKLY_CONTEST_172.BINARY_SEARCH_INTERVIEW_QUESTIONS_LECTURE;
 
 public class Q1 {
     public static void main(String[] args) {
