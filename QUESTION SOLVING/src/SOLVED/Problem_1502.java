@@ -1,3 +1,5 @@
+package SOLVED;
+
 import java.util.Arrays;
 
 public class Problem_1502 {
