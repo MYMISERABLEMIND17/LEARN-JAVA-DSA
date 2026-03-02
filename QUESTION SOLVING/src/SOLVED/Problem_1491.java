@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_1491 {
     public static void main(String[] args) {
         int[] arr = {1000,2000,3000} ;
