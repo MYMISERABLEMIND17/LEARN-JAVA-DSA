@@ -22,6 +22,9 @@ public class intro {
         System.out.println(sam.rno);
         System.out.println(sam.x);
 
+        final int p = 10 ;
+//        int p = 40 ; // THIS WILL GIVES ME ERROR
+        System.out.println(p);
     }
 }
     class Student {

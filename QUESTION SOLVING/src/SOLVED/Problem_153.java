@@ -1,7 +1,10 @@
+import jdk.swing.interop.SwingInterOpUtils;
+
 public class Problem_153 {
     public static void main(String[] args) {
         int[] arr = {11,13,15,17};
-        logic(arr);
+        System.out.println(logic(arr));
+
     }
     static int logic(int[] nums){
         int min = nums[0] ;
