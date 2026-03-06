@@ -1,4 +1,4 @@
-package LECTURE2.b;
+package LECTURE2.packagesandstatic.b.a;
 
 public class message {
 

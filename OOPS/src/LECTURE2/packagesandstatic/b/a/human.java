@@ -1,4 +1,4 @@
-package LECTURE2;
+package LECTURE2.packagesandstatic.b.a;
 
 public class human {
     String name ;
