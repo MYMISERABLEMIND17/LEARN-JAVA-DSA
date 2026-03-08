@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_367 {
     public static void main(String[] args) {
         int x = 16 ;

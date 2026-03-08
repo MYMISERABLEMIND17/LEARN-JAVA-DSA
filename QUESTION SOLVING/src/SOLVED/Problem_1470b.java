@@ -3,7 +3,7 @@ package SOLVED;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Problem1470 {
+public class Problem_1470b {
     public static void main(String[] args) {
         // take input
 
