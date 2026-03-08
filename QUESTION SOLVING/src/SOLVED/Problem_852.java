@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_852 {
     public static void main(String[] args) {
         int[] arr = {0,1,0} ;
