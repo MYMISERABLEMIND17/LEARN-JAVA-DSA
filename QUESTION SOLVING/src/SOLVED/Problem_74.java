@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package SOLVED;
 
 public class Problem_74 {
     public static void main(String[] args) {
