@@ -1,6 +1,4 @@
-package LECTURE_1;
-
-import java.util.Arrays;
+package LECTURE1;
 
 public class intro {
     public static void main(String[] args) {
