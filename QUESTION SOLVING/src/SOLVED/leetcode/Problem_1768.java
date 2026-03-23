@@ -1,3 +1,5 @@
+package SOLVED.leetcode;
+
 public class Problem_1768 {
     public static void main(String[] args) {
 
