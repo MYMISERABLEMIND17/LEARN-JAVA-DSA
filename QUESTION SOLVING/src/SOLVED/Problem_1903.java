@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_1903 {
     public static void main(String[] args) {
         String s = "4206" ;
