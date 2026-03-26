@@ -1,3 +1,5 @@
+package SOLVED.leetcode;
+
 public class Problem_1662 {
     public static void main(String[] args) {
         String[] word1 = {"abc", "d", "defg"} ;

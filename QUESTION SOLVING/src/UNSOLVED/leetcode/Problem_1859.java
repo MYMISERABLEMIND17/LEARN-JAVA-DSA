@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package UNSOLVED.leetcode;
 
 public class Problem_1859 {
     public static void main(String[] args) {
@@ -9,7 +9,6 @@ public class Problem_1859 {
         StringBuilder x = new StringBuilder(str.length()) ;
         x.insert( 0 , " hello ");
         x.insert(1 , "world ") ;
-
         System.out.println(x);
     }
 }
