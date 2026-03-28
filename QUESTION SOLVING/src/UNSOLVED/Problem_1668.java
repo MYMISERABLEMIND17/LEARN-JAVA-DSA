@@ -1,3 +1,5 @@
+package UNSOLVED;
+
 public class Problem_1668 {
     public static void main(String[] args) {
         String sequence = "aaaba" +
