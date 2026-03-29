@@ -1,3 +1,5 @@
+package SOLVED.leetcode;
+
 import java.util.ArrayList;
 
 public class Problem_2942 {
