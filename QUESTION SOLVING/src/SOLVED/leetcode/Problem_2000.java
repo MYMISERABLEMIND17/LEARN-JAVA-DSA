@@ -1,10 +1,12 @@
+package SOLVED.leetcode;
+
 public class Problem_2000 {
     public static void main(String[] args) {
         String word = "abcdefd" ;
         char ch = 'd' ;
         logic(word , ch);
     }
-    static void logic(String word , char ch){
+    static String logic(String word , char ch){
 
         int i =0 ;
         while(i < word.length()){
@@ -31,6 +33,7 @@ public class Problem_2000 {
         }
         String result = str.toString();
         System.out.println(result);
+        return result ;
 
 
     }

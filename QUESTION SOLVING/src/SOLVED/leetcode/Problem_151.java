@@ -28,7 +28,8 @@ public class Problem_151 {
 
         String result = ans.toString() ;
         result = result.replaceAll("\\s+", " ");
-        result = result.trim() ;
+
+        System.out.println(result);
         return result  ;
 
     }
