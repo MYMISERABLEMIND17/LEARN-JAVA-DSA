@@ -1,3 +1,5 @@
+package SOLVED.leetcode;
+
 public class Problem_657 {
     public static void main(String[] args) {
         String moves = "LL" ;

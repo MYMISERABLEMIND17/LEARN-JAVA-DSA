@@ -1,4 +1,4 @@
-package UNSOLVED;
+package UNSOLVED.leetcode;
 
 import java.util.Arrays;
 
