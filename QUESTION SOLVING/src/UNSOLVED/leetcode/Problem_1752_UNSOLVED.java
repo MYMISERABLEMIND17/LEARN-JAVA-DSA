@@ -1,4 +1,4 @@
-package UNSOLVED;
+package UNSOLVED.leetcode;
 
 public class Problem_1752_UNSOLVED {
     public static void main(String[] args) {
