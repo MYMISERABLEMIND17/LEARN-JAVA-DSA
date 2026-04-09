@@ -2,54 +2,47 @@ package UNSOLVED.leetcode;
 
 public class Problem_1011 {
     public static void main(String[]args) {
-        int[] weights = {1,2,3,4,5,6,7,8,9,10};
-        int days = 5 ;
-        logic(weights , days) ;
+        int[] arr = {1,2,3,4,5,6,7,8,9,10} ;
+        int days = 5  ;
+
+        System.out.println(logic(arr , days));
     }
-    static void logic (int[] nums , int days){
-        int maxrange = 0 ;
-        int maxcap = nums[0] ;
-        int mid  = 0 ;
-        for (int i = 0; i < nums.length ; i++) {
-            maxrange = maxrange + nums[i] ;
-            if(nums[i] > maxcap){
-                maxcap = nums[i];
+    static int  logic (int[] nums , int days){
+        int i = 0  ;
+        int end = 0 ;
+        int start = 0    ;
+        while(i < nums.length){
+            end = end + nums[i] ;
+            if(nums[i] > start){
+                start = nums[i] ;
             }
+            i++ ;
         }
+        int count = 0 ;
+        while (start <= end){
+            count = 0 ;
+            int mid  = start + (end - start )/2 ;
+            int cap = 0  ;
+            int j = 0 ;
+            while( j< nums.length){
+                cap = cap + nums[j] ;
 
+                if(cap == mid ){
 
-        int end   = maxrange;
-        int start = maxcap ;
-        int count =  0 ;
-
-        while( start <= end ){
-            mid = start + (end - start )/2 ;
-            count = 1 ;
-            int sum = 0 ;
-            int i = 0 ;
-            while( i < nums.length){
-                sum = sum + nums[i] ;
-                if( sum > mid){
-                    count++;
-                    sum = 0 ;
                 }
-                else{
-                    i++;
-                }
-            }
 
-
-            if( count  > days){
-                end = mid -1 ;
             }
-            else {
+            if(count == days ){
+                return mid ;
+            }
+            if(count > days){
                 start = mid +1 ;
             }
-
-            System.out.println(mid);
+            else {
+                end = mid  -1 ;
+            }
         }
-
-        System.out.println(count);
+        return -1 ;
 
 
     }
