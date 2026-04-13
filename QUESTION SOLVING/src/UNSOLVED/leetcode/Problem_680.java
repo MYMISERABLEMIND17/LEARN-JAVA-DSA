@@ -1,35 +1,29 @@
-package UNSOLVED.leetcode;
-
-public class Problem_680 {
-    public static void main(String[] args) {
-        String a = "abcbda" ;
-        logic(a);
-    }
-    static void logic (String str ){
-        int start  = 0 ;
-        int end = str.length()-1;
-        int count = 0 ;
-        int mid  = start + (end - start)/2 ;
-        while (start <= end ){
-            if(str.charAt(start) != str.charAt(end)) {
-                if(mid - start < end-mid ){
-                    end-- ;
-                }
-                else{
-                    start++ ;
-                }
-                count++ ;
-            }
-            else {
-                start++ ;
-                end-- ;
-            }
-        }
-        if(count <= 1 ){
-            System.out.println("true");
-        }
-        else {
-            System.out.println("false");
-        }
-    }
-}
+//public class Problem_680 {
+//    public static void main(String[] args) {
+//        String  s = "abca" ;
+//
+//        System.out.println(logic(s));
+//    }
+//    static boolean logic (String str ){
+//        int i = 0 ;
+//        int j = str.length()-1 ;
+//        int del = 0 ;
+//        while(i < j ){
+//            if(str.charAt(i) == str.charAt(j)){
+//                i++ ;
+//                j-- ;
+//            }
+//            else if(str.charAt(i) != str.charAt(j) ) {
+//                if (str.charAt(i) == str.charAt(j - 1)) {
+//                    j-- ;
+//                    del++;
+//                } else if (str.charAt(i + 1) == str.charAt(j)) {
+//                    i++;
+//                    del++;
+//                }
+//                return false;
+//            }
+//        }
+//        return true ;
+//    }
+//}
