@@ -1,3 +1,5 @@
+package SOLVED;
+
 import java.util.HashMap;
 
 public class Problem_383 {
