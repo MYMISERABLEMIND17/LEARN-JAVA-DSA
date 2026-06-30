@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package SOLVED.leetcode;
 
 public class Problem_392 {
     public static void main(String[] args) {
