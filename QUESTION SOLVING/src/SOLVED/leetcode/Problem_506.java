@@ -1,3 +1,5 @@
+package SOLVED.leetcode;
+
 import java.util.Arrays;
 
 public class Problem_506 {
