@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Problem_66 {
     public static void main(String[] args) {
-        int[] digit = {9 ,5,3,7,9} ;
+        int[] digit = {9 ,5,3,9,9} ;
         logic(digit);
     }
     static void logic(int[] nums){
