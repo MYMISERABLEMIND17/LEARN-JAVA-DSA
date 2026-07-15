@@ -1,3 +1,5 @@
+package SOLVED;
+
 public class Problem_643 {
     public static void main(String[] args ){
         int[] a = {5, 2};
