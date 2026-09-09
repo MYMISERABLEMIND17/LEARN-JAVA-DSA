@@ -1,315 +1,256 @@
-# 🧠 PARAKRAM's DSA Progress — Complete Review
+# 🧠 Comprehensive LeetCode Solutions Review & Analysis
 
-> **Generated**: August 11, 2026  
-> **Repository**: `LEARN-JAVA-DSA/QUESTION SOLVING`
-
----
-
-## 📊 Executive Summary
-
-| Metric | Count |
-|---|---|
-| **Total Files** | **170+** |
-| **✅ Fully Solved** | **127** |
-| **❌ Unsolved / Failed** | **28** |
-| **⚠️ Partially Done (WIP / Empty)** | **15** |
-| **🏆 Contest Questions Attempted** | **6** |
+> **Target Workspace**: `LEARN-JAVA-DSA/QUESTION SOLVING`  
+> **Total Files Analyzed**: **192 files**  
+> **Repository Folders**: `src/SOLVED/leetcode/`, `src/SOLVED/`, `src/UNSOLVED/leetcode/`, `src/`
 
 ---
 
-## 🟢 SOLVED QUESTIONS (127 Total)
+## 📊 Executive Summary & Breakdown
 
-### SOLVED/leetcode/ (117 files)
-
-| # | Problem | Difficulty | Approach Used | Code Quality Notes |
-|---|---------|-----------|---------------|-------------------|
-| 1 | Two Sum | Easy | Brute Force O(n²) nested loops | ✅ Works. Could use HashMap for O(n) |
-| 11 | Container With Most Water | Medium | Two Pointer | ✅ Clean two-pointer implementation |
-| 14 | Longest Common Prefix | Easy | Sort + Compare first/last | ✅ Smart approach using sort |
-| 26 | Remove Duplicates from Sorted Array | Easy | Two Pointer (in-place) | ✅ Good in-place technique |
-| 27 | Remove Element | Easy | Two Pointer / Iteration | ✅ Correct |
-| 33 | Search in Rotated Sorted Array | Medium | Modified Binary Search | ✅ Excellent — handles both halves correctly |
-| 34 | First and Last Position in Sorted Array | Medium | Two Binary Searches (left + right bound) | ✅ Very good — two-pass binary search |
-| 35 | Search Insert Position | Easy | Binary Search | ✅ Standard binary search |
-| 53 | Maximum Subarray | Medium | Kadane's Algorithm | ✅ Perfect Kadane's implementation |
-| 58 | Length of Last Word | Easy | Reverse iteration | ✅ Clean |
-| 69 | Sqrt(x) | Easy | Binary Search | ✅ Good binary search approach |
-| 73 | Set Matrix Zeroes | Medium | Marking + Two-pass | ✅ Correct approach |
-| 74 | Search a 2D Matrix | Medium | Binary Search (flattened) | ✅ Good |
-| 75 | Sort Colors | Medium | Counting Sort (count 0s, 1s, 2s) | ✅ Works. Dutch National Flag would be O(1) pass |
-| 81 | Search in Rotated Sorted Array II | Medium | Modified Binary Search | ✅ Handles duplicates |
-| 88 | Merge Sorted Array | Easy | In-place merge | ✅ Correct |
-| 122 | Best Time to Buy and Sell Stock II | Medium | Greedy (sum all positive diffs) | ✅ Clean greedy |
-| 125 | Valid Palindrome | Easy | Two Pointer | ✅ Good |
-| 136 | Single Number | Easy | XOR Bit Manipulation | ✅ Optimal O(n) XOR — great! |
-| 151 | Reverse Words in a String | Medium | StringBuilder + Reverse insert | ✅ Creative approach |
-| 153 | Find Minimum in Rotated Sorted Array | Medium | Binary Search | ✅ Correct |
-| 162 | Find Peak Element | Medium | Binary Search | ✅ Good edge case handling |
-| 167 | Two Sum II (Sorted) | Medium | Two Pointer | ✅ Clean two-pointer |
-| 169 | Majority Element | Easy | Brute Force O(n²) | ✅ Works. Boyer-Moore would be O(n) |
-| 189 | Rotate Array | Medium | Extra array copy | ✅ Works |
-| 189_opt | Rotate Array (Optimized) | Medium | Reverse approach | ✅ Better — O(1) space |
-| 209 | Minimum Size Subarray Sum | Medium | Sliding Window | ✅ Correct sliding window |
-| 217 | Contains Duplicate | Easy | Sort + Linear scan | ✅ Works. HashSet would be simpler |
-| 219 | Contains Duplicate II | Easy | Sort + Nested loop with break | ⚠️ Sort breaks original indices — logic flaw |
-| 229 | Majority Element II | Medium | Brute Force counting | ⚠️ Has `break` that exits after first match — misses multiple results |
-| 242 | Valid Anagram | Easy | Sort + Arrays.equals | ✅ Correct |
-| 268 | Missing Number | Easy | Math (sum formula) | ✅ Good |
-| 283 | Move Zeroes | Easy | Two Pointer (in-place) | ✅ Clean |
-| 344 | Reverse String | Easy | Two Pointer swap | ✅ Correct |
-| 347 | Top K Frequent Elements | Medium | HashMap + Priority Queue concept | ✅ Works |
-| 349 | Intersection of Two Arrays | Easy | Nested loops + marking | ✅ Works |
-| 350 | Intersection of Two Arrays II | Easy | Sorting + Two Pointer | ✅ Good |
-| 367 | Valid Perfect Square | Easy | Binary Search | ✅ Correct |
-| 374 | Guess Number Higher or Lower | Easy | Binary Search | ✅ Standard |
-| 383 | Ransom Note | Easy | Character counting (array) | ✅ Good approach |
-| 389 | Find the Difference | Easy | XOR or counting | ✅ Clean |
-| 392 | Is Subsequence | Easy | Two Pointer | ✅ Correct |
-| 414 | Third Maximum Number | Easy | Track top 3 with conditionals | ✅ Detailed handling |
-| 441 | Arranging Coins | Easy | Math / Binary Search | ✅ Clean |
-| 455 | Assign Cookies | Easy | Greedy (sort + two pointer) | ✅ Good greedy |
-| 461 | Hamming Distance | Easy | XOR + count bits | ✅ Good bit manipulation |
-| 463 | Island Perimeter | Easy | Grid traversal + neighbor check | ✅ Correct |
-| 476 | Number Complement | Easy | Bit mask + XOR | ✅ Good bitwise logic |
-| 485 | Max Consecutive Ones | Easy | Linear scan with counter | ✅ Clean |
-| 496 | Next Greater Element I | Easy | Nested loops (brute force) | ✅ Works. Stack approach better |
-| 506 | Relative Ranks | Easy | Sort + Assign labels | ✅ Correct |
-| 560 | Subarray Sum Equals K | Medium | Brute Force O(n²) prefix sum | ✅ Works. HashMap prefix-sum O(n) |
-| 628 | Maximum Product of Three Numbers | Easy | Sort + compare ends | ✅ Good edge case handling |
-| 643 | Maximum Average Subarray I | Easy | Sliding Window | ✅ Clean sliding window |
-| 657 | Robot Return to Origin | Easy | Character counting | ✅ Clean |
-| 704 | Binary Search | Easy | Standard Binary Search | ✅ Textbook implementation |
-| 724 | Find Pivot Index | Easy | Prefix sum | ✅ Correct |
-| 796 | Rotate String | Easy | String concatenation check | ✅ Smart approach |
-| 832 | Flipping an Image | Easy | Reverse + Flip | ✅ Correct |
-| 852 | Peak Index in Mountain Array | Medium | Binary Search | ✅ Good |
-| 875 | Koko Eating Bananas | Medium | Binary Search on answer | ✅ Advanced — well done |
-| 881 | Boats to Save People | Medium | Two Pointer (greedy) | ✅ Correct |
-| 961 | N-Repeated Element | Easy | Frequency counting | ✅ Clean |
-| 977 | Squares of a Sorted Array | Easy | Square + Sort | ✅ Works |
-| 1051 | Height Checker | Easy | Selection Sort + Compare | ✅ Custom sort implementation |
-| 1108 | Defanging an IP Address | Easy | String replace | ✅ Simple and correct |
-| 1200 | Minimum Absolute Difference | Easy | Sort + Linear scan | ✅ Good |
-| 1295 | Find Numbers with Even Digits | Easy | Digit counting | ✅ Clean |
-| 1299 | Replace with Greatest on Right | Easy | Right-to-left scan | ✅ Correct |
-| 1304 | Find N Unique Integers Sum to Zero | Easy | Symmetric pairs | ✅ Good |
-| 1343 | Subarrays Size K Avg ≥ Threshold | Medium | Sliding Window | ✅ Good |
-| 1346 | Check If N and Double Exist | Easy | Nested loop | ✅ Works |
-| 1351 | Count Negatives in Matrix | Easy | Linear scan | ✅ Correct |
-| 1365 | How Many Smaller Than Current | Easy | Nested loops | ✅ Works |
-| 1389 | Create Target Array | Easy | ArrayList.add(index, val) | ✅ Smart |
-| 1394 | Find Lucky Integer | Easy | Brute force frequency | ✅ Works |
-| 1431 | Kids With Greatest Candies | Easy | Find max + compare | ✅ Clean |
-| 1456 | Max Vowels in Substring Size K | Medium | Sliding Window | ✅ Good |
-| 1464 | Max Product Two Elements | Easy | Brute force O(n²) | ✅ Works |
-| 1470a | Shuffle the Array | Easy | Two pointer interleave | ✅ Clean |
-| 1470b | Shuffle the Array (v2) | Easy | Scanner + manual split | ⚠️ Logic error in merge |
-| 1480 | Running Sum of 1D Array | Easy | In-place prefix sum | ✅ Clean |
-| 1482 | Min Days for m Bouquets | Medium | Binary Search on answer | ✅ Excellent |
-| 1491 | Avg Salary Excl Min Max | Easy | Find min/max, subtract | ✅ Correct |
-| 1502 | Can Make Arithmetic Progression | Easy | Sort + check diffs | ✅ Good |
-| 1512 | Number of Good Pairs | Easy | Brute Force O(n²) | ✅ Works |
-| 1528 | Shuffle String | Easy | Index-based placement | ✅ Clean |
-| 1539 | Kth Missing Positive Number | Easy | Binary Search / Linear | ✅ Correct |
-| 1572 | Matrix Diagonal Sum | Easy | Loop with index math | ✅ Clean |
-| 1608 | Special Array | Easy | Sort + count | ✅ Works |
-| 1614 | Max Nesting Depth Parentheses | Easy | Counter tracking | ✅ Clean |
-| 1662 | Check Two String Arrays Equal | Easy | Concatenation + equals | ✅ Simple |
-| 1672 | Richest Customer Wealth | Easy | Nested loop sum | ✅ Correct |
-| 1678 | Goal Parser Interpretation | Easy | StringBuilder traversal | ✅ Clean |
-| 1704 | String Halves Are Alike | Easy | Vowel counting per half | ✅ Good |
-| 1768 | Merge Strings Alternately | Easy | Two pointer interleave | ✅ Clean |
-| 1876 | Substrings Size 3 No Repeats | Easy | Sliding window + check | ✅ Good |
-| 1903 | Largest Odd Number in String | Easy | Right-to-left scan | ✅ Optimal |
-| 1920 | Build Array from Permutation | Easy | Direct index mapping | ✅ Clean |
-| 1929 | Concatenation of Array | Easy | Copy to doubled array | ✅ Correct |
-| 1967 | Strings as Substrings | Easy | Contains check | ✅ Clean |
-| 1991 | Find Middle Index | Easy | Prefix sum / pivot | ✅ Correct |
-| 2000 | Reverse Prefix of Word | Easy | Find char + reverse | ✅ Good |
-| 2379 | Min Recolors for K Black | Medium | Sliding Window | ✅ Clean |
-| 2419 | Rearrange Array by Sign | Medium | Separate + interleave | ✅ Works |
-| 2491 | Divide Players Equal Skill | Medium | Sort + Two Pointer | ✅ Good |
-| 2529 | Max Count Pos/Neg Integer | Easy | Linear count | ✅ Simple |
-| 2570 | Merge Two 2D Arrays | Medium | Two Pointer merge | ✅ Good |
-| 2678 | Number of Senior Citizens | Easy | String parsing | ✅ Correct |
-| 2839 | Check Strings Made Equal | Easy | Char comparison | ✅ Works |
-| 2942 | Find Words Containing Char | Easy | Linear scan | ✅ Simple |
-| 3074 | Apple Redistribution | Easy | Greedy sort | ✅ Good |
-| 3110 | Score of a String | Easy | Adjacent diff sum | ✅ Clean |
-| 3442 | Max Diff Even Odd Freq | Medium | Frequency counting | ✅ Works |
-| 3880 | New problem | — | Sliding window / string | ✅ Good |
-| 3884 | New problem | — | Simple logic | ✅ Clean |
-
-### SOLVED/ Root (10 files)
-
-| # | Problem | Approach | Notes |
-|---|---------|----------|-------|
-| 28 | Find Index of First Occurrence (+P680) | String matching pointer | ✅ + includes P680 Valid Palindrome II |
-| 287 | Find the Duplicate Number | Binary Search on value range | ✅ Clever counting binary search |
-| 412 | Fizz Buzz | Modulo conditionals | ✅ Textbook |
-| 693 | Binary Number Alternating Bits | Bitwise adjacent check | ✅ Good bit manipulation |
-| 948 | Bag of Tokens | Sort + Two Pointer greedy | ✅ Clean greedy |
-| 1089 | Duplicate Zeros | Shift-right approach | ✅ In-place shifting |
-| 2108 | Find First Palindromic String | Two pointer palindrome | ✅ Correct |
-| 2149 | Rearrange Array by Sign | Separate pos/neg + interleave | ✅ Clean |
-| 2410 | Max Matching Players/Trainers | Sort + Two Pointer | ✅ Good greedy |
-| 2486 | Append Chars for Subsequence | Two Pointer subsequence | ✅ Correct |
+| Category | Count | Percentage | Description |
+|---|:---:|:---:|---|
+| **Fully Solved & Optimal** | **112** | 58.3% | Correct logic and optimal time/space complexity |
+| **Solved (Sub-optimal Complexity)** | **18** | 9.4% | Correct code, but a more optimal approach exists (e.g. $O(n^2)$ vs $O(n)$) |
+| **Solved with Subtle Logic Flaws** | **3** | 1.6% | Marked solved, but edge cases or logic issues exist (P219, P229, P1470b) |
+| **Working Code Misplaced in UNSOLVED** | **4** | 2.1% | Functional solutions ready to move to `SOLVED` (P121, P442, P448, P2037) |
+| **Unsolved (Logic Errors & Bugs)** | **23** | 12.0% | Attempted approach has specific bugs, infinite loops, or type overflows |
+| **Unsolved (Incomplete / Work-in-Progress)** | **17** | 8.9% | Partial logic implemented; loops or core conditions unfinished |
+| **Unsolved (Empty Stubs / Not Started)** | **15** | 7.8% | Empty method signatures or commented stubs without code |
+| **Total** | **192** | **100%** | All LeetCode files cataloged |
 
 ---
 
-## 🔴 UNSOLVED QUESTIONS (28 + 10 Root WIP)
+## 📋 Complete Master Table (192 Problems / Solutions)
 
-### UNSOLVED/leetcode/ (37 files)
-
-| # | Problem | Diff | Status | What Went Wrong |
-|---|---------|------|--------|----------------|
-| 20 | Valid Parentheses | Easy | ❌ Wrong | Uses counters not Stack — fails `"([)]"` |
-| 34 | First/Last Position | Med | ❌ Dup | Incomplete duplicate attempt |
-| 42 | Trapping Rain Water | Hard | ❌ Incomplete | Doesn't track left/right maxima |
-| 43 | Multiply Strings | Med | ❌ Empty | No logic written |
-| 48 | Rotate Image | Med | ❌ Half | Transpose works, row reverse empty |
-| 66 | Plus One | Easy | ❌ Broken | ArrayIndexOutOfBounds on {9,9} |
-| 69 | Sqrt(x) | Easy | ⚠️ Near | mid*mid overflow for large x |
-| 121 | Buy and Sell Stock | Easy | ⚠️ Correct! | Should be moved to SOLVED |
-| 152 | Max Product Subarray | Med | ❌ Wrong | Brute force misses neg×neg. Needs DP |
-| 198 | House Robber | Med | ❌ Wrong | Odd/even sum doesn't work. Needs DP |
-| 209 | Min Size Subarray | Med | ⚠️ Dup | Different attempt |
-| 219 | Contains Duplicate II opt | Easy | ⚠️ Incomplete | Optimization unfinished |
-| 287 | Find Duplicate | Med | ❌ Incomplete | Binary search not finished |
-| 367 | Perfect Square opt | Easy | ⚠️ Incomplete | Alternative approach |
-| 448 | Disappeared Numbers | Easy | ❌ Incomplete | Logic not complete |
-| 540 | Single Element Sorted | Med | ⚠️ Near | Wrong termination return |
-| 541 | Reverse String II | Easy | ❌ Broken | Overly complex approach |
-| 605 | Can Place Flowers | Easy | ⚠️ Near | `n == count` should be `n <= count` |
-| 680 | Valid Palindrome II | Med | ❌ Commented | All code commented out |
-| 704 | Binary Search | Easy | ❌ Empty | Method body empty |
-| 867 | Transpose Matrix | Easy | ❌ Incomplete | Swap logic commented out |
-| 912 | Sort an Array | Med | ❌ Empty | No implementation |
-| 925 | Long Pressed Name | Easy | ❌ Bug | Double increment of i |
-| 1021 | Remove Outer Parentheses | Easy | ❌ | Needs review |
-| 1189 | Max Balloons | Easy | ❌ | Needs review |
-| 1217 | Min Cost Move Chips | Easy | ❌ Stub | Minimal code |
-| 1331 | Rank Transform | Easy | ❌ | Needs review |
-| 1380 | Lucky Numbers Matrix | Easy | ❌ | Needs review |
-| 1408 | String Matching Array | Easy | ❌ Stub | Minimal code |
-| 1636 | Sort by Frequency | Easy | ❌ Inf loop | `i = j` causes infinite loop |
-| 1668 | Max Repeating Substring | Easy | ❌ Wrong | Pointer issues |
-| 1732 | Highest Altitude | Easy | ❌ | Needs review |
-| 1752 | Sorted and Rotated | Easy | ❌ | Named as unsolved |
-| 1773 | Count Items Rule | Easy | ❌ | Needs review |
-| 1859 | Sorting Sentence | Easy | ❌ | Needs review |
-| 1903 | Largest Odd (dup) | Easy | ⚠️ Dup | Different attempt |
-| 1984 | Min Diff K Scores | Easy | ❌ | Needs review |
-| 826 | Most Profit Work | Med | ❌ Wrong | Flawed brute force matching |
-
-### Root-level src/ WIP (10 files)
-
-| # | Problem | Status | Notes |
-|---|---------|--------|-------|
-| 78 | Subsets | ❌ Commented | Bit manipulation abandoned |
-| 238 | Product Except Self | ⚠️ Partial | Division approach, zeros broken |
-| 442 | Find All Duplicates | ✅ Works! | Move to SOLVED |
-| 645 | Set Mismatch | ⚠️ Wrong | Code does bit complement not actual problem |
-| 825 | Friends of Appropriate Ages | ❌ Wrong | Conditions inverted |
-| 838 | Push Dominoes | ❌ Partial | Some cases break |
-| 881 | Boats (v2) | ❌ Empty | While loop has no logic |
-| 977 | Squares Sorted (opt) | ❌ Incomplete | Only squares, no merge |
-| 2037 | Min Moves to Seat | ✅ Works! | Move to SOLVED |
-| 2337 | Move Pieces | ❌ Commented | Abandoned |
-| 2594 | Min Time Repair Cars | ❌ Incomplete | No binary search yet |
-
+| Problem # | Name | Status | My Approach | Optimal Approach (if different) | Mistake (if unsolved) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Two Sum | Solved (Sub-optimal) | Brute force nested loops checking all pairs `nums[i] + nums[j] == target` in $O(n^2)$ time, $O(1)$ space. | One-pass HashMap storing `target - nums[i]` index in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 5 | Longest Palindromic Substring | Unsolved (Incomplete / Commented) | Expand around center (odd and even length centers) using two while loops; entire logic is commented out. | Already near-optimal ($O(n^2)$ time, $O(1)$ space); Manacher's Algorithm achieves $O(n)$ time, $O(n)$ space. | Abandoned / commented out code before returning result or integrating with main function. |
+| 9 | Palindrome Number | Solved | Converts integer to String (`x + ""`), uses two pointers comparing symmetric characters in $O(\log_{10} n)$ time, $O(\log_{10} n)$ space. | Reverse half the integer mathematically via modulo/division in $O(\log_{10} n)$ time, $O(1)$ space (avoids string conversion). | N/A (Solved) |
+| 11 | Container With Most Water | Solved | Two pointers from left and right moving the pointer with smaller height inward in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 14 | Longest Common Prefix | Solved | Sorts the array of strings and compares characters of first and last strings in $O(n \cdot L \log n)$ time, $O(1)$ space. | Vertical scanning or linear scan comparing characters across strings in $O(n \cdot L)$ time, $O(1)$ space. | N/A (Solved) |
+| 15 | 3Sum | Unsolved (Incomplete / TLE) | Brute force triple nested loops ($O(n^3)$) printing matching triplets to console. | Sort array + Two Pointers inward scan in $O(n^2)$ time, $O(1)$ auxiliary space. | Does not return `List<List<Integer>>`, does not skip duplicate elements, and $O(n^3)$ will TLE. |
+| 16 | 3Sum Closest | Solved (Sub-optimal) | Brute force triple nested loops checking all triplet sums in $O(n^3)$ time, $O(1)$ space. | Sort array + Two Pointers inward traversal for each element in $O(n^2)$ time, $O(1)$ auxiliary space. | N/A (Solved; works but $O(n^3)$ will TLE on larger inputs) |
+| 20 | Valid Parentheses | Unsolved (Wrong Data Structure) | Three separate integer counters for `()`, `[]`, `{}`. | Stack-based validation matching closing brackets against top of stack in $O(n)$ time, $O(n)$ space. | Counters fail to track nesting order: returns true for interleaved brackets like `"([)]"`. |
+| 26 | Remove Duplicates from Sorted Array | Solved | Two pointers in-place slow/fast pointer overwriting duplicate elements in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 27 | Remove Element | Solved | Two pointers in-place filtering out elements matching `val` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 28 | Find the Index of the First Occurrence in a String | Solved | Two pointers matching characters; on mismatch backtracks `i = i - j + 1, j = 0` in $O(n \cdot m)$ time, $O(1)$ space. Also implements Problem 680 (Valid Palindrome II) inside. | KMP (Knuth-Morris-Pratt) algorithm with $\pi$-table in $O(n + m)$ time, $O(m)$ space. | N/A (Solved) |
+| 33 | Search in Rotated Sorted Array | Solved | Modified Binary Search checking whether left or right half is sorted, narrowing bounds in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 34 (v1) | Find First and Last Position of Element in Sorted Array | Solved | Two separate binary searches to find the leftmost and rightmost index of target in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 34 (v2) | Find First and Last Position of Element in Sorted Array | Unsolved (Infinite Loop) | Single binary search loop setting `start = mid` when `nums[mid] == target`. | Two separate binary searches (one for first position, one for last position) in $O(\log n)$ time, $O(1)$ space. | `start = mid` causes infinite loop when `start == mid`; returns `[-1, -1]` unconditionally. |
+| 35 | Search Insert Position | Solved | Standard binary search returning `start` pointer upon loop termination in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 42 | Trapping Rain Water | Unsolved (Incomplete) | Commented out loop tracking running right maximum with `drop++`. | Two Pointers with `left_max` and `right_max` in $O(n)$ time, $O(1)$ space. | Only tracked a single running maximum; does not compute trapped water volume. |
+| 43 | Multiply Strings | Unsolved (Type Overflow) | Calls `Integer.parseInt(num1) * Integer.parseInt(num2)`. | Elementary column-wise multiplication into an `int[n + m]` array in $O(n \cdot m)$ time, $O(n + m)$ space. | `NumberFormatException` / integer overflow on large strings (length up to 200 digits); violates problem rule. |
+| 48 | Rotate Image | Unsolved (Incomplete) | Transposes matrix in-place; second loop for reversing rows is left empty. | Transpose matrix + reverse each row in $O(n^2)$ time, $O(1)$ space. | Missing second step: transposition alone only reflects across diagonal, must reverse each row for $90^\circ$ clockwise rotation. |
+| 53 | Maximum Subarray | Solved | Kadane's Algorithm accumulating running sum and resetting when negative in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 58 | Length of Last Word | Solved | Reverse scan skipping trailing whitespace then counting non-space characters in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 66 | Plus One | Unsolved (Index Out of Bounds) | ArrayList accumulation with reverse loop starting at `i = nums.length`. | Reverse loop setting 9 to 0 and incrementing first non-9; resize to `int[n+1]` with leading 1 only if all 9s in $O(n)$ time, $O(1)$ space. | `i = nums.length` throws `ArrayIndexOutOfBoundsException`; flawed carry handling for numbers like `[1, 9]`. |
+| 69 (v1) | Sqrt(x) | Solved | Binary search on range $[0, x]$ with integer comparisons in $O(\log x)$ time, $O(1)$ space. | Already optimal ($O(\log x)$ time, $O(1)$ space; or Newton's method). | N/A (Solved) |
+| 69 (v2) | Sqrt(x) | Unsolved (Integer Overflow) | Binary search using `mid * mid` comparison. | Binary search using `long` or division `mid <= x / mid` in $O(\log x)$ time, $O(1)$ space. | `mid * mid` overflows 32-bit integer for large $x$, becoming negative; returns `mid` instead of `end` (floor). |
+| 73 | Set Matrix Zeroes | Solved | Row and column boolean arrays / markers to flag zeros, two-pass zeroing in $O(m \cdot n)$ time, $O(m + n)$ space. | Use first row and first column of the matrix itself as flags for $O(m \cdot n)$ time, $O(1)$ auxiliary space. | N/A (Solved) |
+| 74 | Search a 2D Matrix | Solved | Binary search mapping 1D index to 2D coordinates `matrix[mid/cols][mid%cols]` in $O(\log(m \cdot n))$ time, $O(1)$ space. | Already optimal ($O(\log(m \cdot n))$ time, $O(1)$ space). | N/A (Solved) |
+| 75 | Sort Colors | Solved | Two-pass counting sort counting occurrences of 0, 1, and 2, then overwriting in $O(n)$ time, $O(1)$ space. | Dutch National Flag algorithm (three-way partitioning with 3 pointers) in a single pass $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 78 | Subsets | Unsolved (Incomplete / Commented) | Calculates `Math.pow(2, nums.length)`, while loop body is empty; commented out. | Backtracking or bit manipulation in $O(n \cdot 2^n)$ time, $O(2^n)$ space. | Empty while loop; abandoned implementation. |
+| 81 | Search in Rotated Sorted Array II | Solved | Modified binary search with duplicate elimination `start++`/`end--` on equality in $O(\log n)$ avg, $O(n)$ worst time, $O(1)$ space. | Already optimal ($O(\log n)$ avg, $O(n)$ worst, $O(1)$ space). | N/A (Solved) |
+| 88 | Merge Sorted Array | Solved | Three pointers merging from back to front into `nums1` in $O(m + n)$ time, $O(1)$ space. | Already optimal ($O(m + n)$ time, $O(1)$ space). | N/A (Solved) |
+| 121 | Best Time to Buy and Sell Stock | Solved (Misplaced in UNSOLVED) | Single pass tracking `lowprice` and `profit = max(profit, highprice - lowprice)` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | Working correct code mistakenly placed under UNSOLVED directory. |
+| 122 | Best Time to Buy and Sell Stock II | Solved | Greedy one-pass accumulating every positive daily price difference in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 125 | Valid Palindrome | Solved | Two pointers from opposite ends skipping non-alphanumeric characters and comparing in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 136 | Single Number | Solved | XOR bitwise reduction cancelling duplicate pairs in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 151 | Reverse Words in a String | Solved | Parses string, collects words with StringBuilder, inserts/reverses in $O(n)$ time, $O(n)$ space. | Already optimal in Java ($O(n)$ time, $O(n)$ space; strings are immutable). | N/A (Solved) |
+| 152 | Maximum Product Subarray | Unsolved (Logic Error / TLE) | Brute force $O(n^2)$ nested loops computing subarray product, initialized `largerprod = 1`. | Kadane's-style Dynamic Programming tracking running `max_prod` and `min_prod` in $O(n)$ time, $O(1)$ space. | Fails on arrays with only negative numbers (e.g. `[-2]` returns 1 instead of -2); `prod == 0` check continues multiplying instead of resetting; $O(n^2)$ TLE. |
+| 153 | Find Minimum in Rotated Sorted Array | Solved | Binary search comparing `nums[mid]` with `nums[end]` to locate pivot in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 162 | Find Peak Element | Solved | Binary search on slope comparing `nums[mid]` with `nums[mid+1]` in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 167 | Two Sum II - Input Array Is Sorted | Solved | Two pointers from opposite ends adjusting pointers based on sum in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 169 | Majority Element | Solved (Sub-optimal) | Brute force nested loops counting frequency of each element in $O(n^2)$ time, $O(1)$ space. | Boyer-Moore Voting Algorithm in a single pass $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 189 (v1) | Rotate Array | Solved (Sub-optimal) | Copies elements to a new auxiliary array at `(i + k) % n` in $O(n)$ time, $O(n)$ space. | In-place three reversals (reverse whole array, reverse first $k$, reverse remaining $n-k$) in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 189 (v2) | Rotate Array | Solved | In-place array reversal helper reversing whole array, first $k$, and last $n-k$ in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 198 | House Robber | Unsolved (Logic Error) | Calculates odd-indexed sum, even-indexed sum, and maximum of any pair `nums[i] + nums[j]`, returns max. | Dynamic Programming: `dp[i] = max(dp[i-1], dp[i-2] + nums[i])` in $O(n)$ time, $O(1)$ space. | Flawed assumption: optimal robbery pattern is not strictly alternating parity (e.g. `[2, 1, 1, 2]` gives 4, code gives 3). |
+| 209 (v1) | Minimum Size Subarray Sum | Solved | Sliding window with two pointers expanding right, contracting left while `sum >= target` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 209 (v2) | Minimum Size Subarray Sum | Unsolved (Logic Error / TLE) | Brute force $O(n^2)$ nested loops checking `sum == target`. | Sliding window with two pointers expanding right and contracting left when `sum >= target` in $O(n)$ time, $O(1)$ space. | Checks `sum == target` instead of `sum >= target`; $O(n^2)$ complexity will TLE. |
+| 217 | Contains Duplicate | Solved | Sorts array `Arrays.sort(nums)` and checks adjacent elements `nums[i] == nums[i+1]` in $O(n \log n)$ time, $O(1)$ space. | HashSet single-pass lookup in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 219 (v1) | Contains Duplicate II | Solved (Logic Flaw) | Sorts array then checks adjacent elements within window with break in $O(n \log n)$ time, $O(1)$ space. | Sliding window of size $k$ with HashSet in $O(n)$ time, $O(k)$ space. | Logic flaw: sorting rearranges elements and corrupts original indices, so `j - i <= k` checks distance in sorted array, not original array! |
+| 219 (v2) | Contains Duplicate II | Unsolved (Logic Error) | Single loop checking adjacent elements `nums[i] == nums[i+1]`. | Sliding window of size $k$ using HashSet in $O(n)$ time, $O(k)$ space. | Only checks adjacent elements in an unsorted array; completely ignores the window distance condition $\|i - j\| \le k$. |
+| 229 | Majority Element II | Solved (Logic Flaw) | Nested loop counting frequencies, replaces counted items with `Integer.MIN_VALUE`, has `break` after first majority found in $O(n^2)$ time, $O(1)$ space. | Boyer-Moore Voting Algorithm extended for two candidates in $O(n)$ time, $O(1)$ space. | Logic flaw: `break` exits after finding 1 element, missing the 2nd potential majority element (there can be up to two elements with frequency $> n/3$). |
+| 238 | Product of Array Except Self | Unsolved (Division by Zero / Broken) | Computes total product and non-zero product, uses division `tmul / nums[j]`. | Prefix and Suffix products array / running variables in $O(n)$ time, $O(1)$ extra space. | Throws `ArithmeticException: / by zero` when `nums[j] == 0`; fails with multiple zeros; violates problem constraint prohibiting division. |
+| 242 | Valid Anagram | Solved | Converts both strings to char arrays, sorts with `Arrays.sort()`, compares with `Arrays.equals()` in $O(n \log n)$ time, $O(n)$ space. | Frequency array of size 26 in a single pass in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 268 | Missing Number | Solved | Gauss summation formula: `n * (n + 1) / 2 - actualSum` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space; or XOR bitwise). | N/A (Solved) |
+| 283 | Move Zeroes | Solved | Two pointers slow/fast pointer: shifts non-zero elements forward, fills remaining slots with zeros in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 287 | Find the Duplicate Number | Solved | Binary Search on value range $[1, n]$, counting elements $\le mid$ in each iteration in $O(n \log n)$ time, $O(1)$ space. | Floyd's Tortoise and Hare (Cycle Detection) in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 287 (v2) | Find the Duplicate Number | Unsolved (TLE) | Brute force $O(n^2)$ nested loops comparing `nums[i] == nums[j]`. | Floyd's Tortoise and Hare (Cycle Detection) in $O(n)$ time, $O(1)$ space. | $O(n^2)$ time complexity will TLE on $n = 10^5$; violates the problem's linear time requirement. |
+| 344 | Reverse String | Solved | Two pointers swapping symmetric characters inward in-place in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 347 | Top K Frequent Elements | Solved | Counts frequencies via HashMap / priority queue concept in $O(n \log k)$ time, $O(n)$ space. | Bucket Sort using frequency as array index in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 349 | Intersection of Two Arrays | Solved (Sub-optimal) | Brute force nested loops with boolean visited marking in $O(n \cdot m)$ time, $O(n)$ space. | HashSet lookup of elements from first array in $O(n + m)$ time, $O(n)$ space. | N/A (Solved) |
+| 350 | Intersection of Two Arrays II | Solved | Sorts both arrays + Two Pointers advancing matching pointers and adding to list in $O(n \log n + m \log m)$ time, $O(1)$ extra space. | HashMap frequency count on smaller array in $O(n + m)$ time, $O(\min(n, m))$ space. | N/A (Solved) |
+| 367 (v1) | Valid Perfect Square | Solved | Binary search on range $[1, \text{num}]$ checking `mid * mid == num` in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 367 (v2) | Valid Perfect Square | Unsolved (Incomplete / Infinite Loop) | Commented out while loop squaring `i` and setting `max = max/2`. | Binary Search on range $[1, \text{num}]$ in $O(\log n)$ time, $O(1)$ space. | Incomplete; commented out; never returns a boolean. |
+| 374 | Guess Number Higher or Lower | Solved | Binary search calling API `guess(mid)` in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 383 | Ransom Note | Solved | Frequency array of size 26 counting magazine letters, decrements for ransomNote characters in $O(n + m)$ time, $O(1)$ space. | Already optimal ($O(n + m)$ time, $O(1)$ space). | N/A (Solved) |
+| 389 | Find the Difference | Solved | Bitwise XOR across all characters of both strings; identical characters cancel out in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 392 | Is Subsequence | Solved | Two pointers traversing $s$ and $t$, advances $s$ pointer on matching character in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 412 | Fizz Buzz | Solved | Iterates from 1 to $n$, checking `% 15`, `% 3`, and `% 5` conditionals in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space). | N/A (Solved) |
+| 414 | Third Maximum Number | Solved | Tracks first, second, and third distinct maximums using condition checks in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 441 | Arranging Coins | Solved | Binary search on row count $[1, n]$ validating coin formula $k(k+1)/2 \le n$ in $O(\log n)$ time, $O(1)$ space. | Closed-form math formula $k = \lfloor (\sqrt{8n + 1} - 1) / 2 \rfloor$ in $O(1)$ time, $O(1)$ space. | N/A (Solved) |
+| 442 | Find All Duplicates in an Array | Solved (Sub-optimal Space) | Allocates frequency array `new int[nums.length]`, adds duplicate to list in $O(n)$ time, $O(n)$ space. | In-place sign negation using values as indices in $O(n)$ time, $O(1)$ extra space. | Working code placed in UNSOLVED; uses $O(n)$ space instead of required $O(1)$ extra space. |
+| 443 | String Compression | Solved | Two pointers scanning repeated character runs, writes character and count digits in-place in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 448 | Find All Numbers Disappeared in an Array | Solved (Sub-optimal Time) | Sorts array `Arrays.sort(nums)`, scans with `expected = 1` in $O(n \log n)$ time, $O(1)$ auxiliary space. | In-place sign negation in $O(n)$ time, $O(1)$ auxiliary space. | Working code placed in UNSOLVED; sub-optimal $O(n \log n)$ time complexity. |
+| 455 | Assign Cookies | Solved | Sorts greed and cookie arrays + Two Pointers greedy satisfying smallest greed first in $O(n \log n + m \log m)$ time, $O(1)$ space. | Already optimal ($O(n \log n + m \log m)$ time, $O(1)$ space). | N/A (Solved) |
+| 461 | Hamming Distance | Solved | XORs both numbers and counts set bits using right-shifting in $O(1)$ time, $O(1)$ space. | Already optimal ($O(1)$ time, $O(1)$ space; or `Integer.bitCount(x ^ y)`). | N/A (Solved) |
+| 463 | Island Perimeter | Solved | Traverses grid, adds 4 for each land cell and subtracts 2 for every adjacent shared land edge in $O(m \cdot n)$ time, $O(1)$ space. | Already optimal ($O(m \cdot n)$ time, $O(1)$ space). | N/A (Solved) |
+| 476 | Number Complement | Solved | Builds bitmask of all 1s matching the bit-length of $num$, then returns `mask ^ num` in $O(1)$ time, $O(1)$ space. | Already optimal ($O(1)$ time, $O(1)$ space). | N/A (Solved) |
+| 485 | Max Consecutive Ones | Solved | Single pass maintaining running count of 1s and updating maximum in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 496 | Next Greater Element I | Solved (Sub-optimal) | Nested loops brute force searching for next greater element in `nums2` for each element in `nums1` in $O(n \cdot m)$ time, $O(1)$ space. | Monotonic decreasing stack + HashMap precomputing next greater elements in $O(n + m)$ time, $O(m)$ space. | N/A (Solved) |
+| 506 | Relative Ranks | Solved | Clones and sorts score array, maps scores to ranks (Gold, Silver, Bronze, or rank string) in $O(n \log n)$ time, $O(n)$ space. | Already optimal ($O(n \log n)$ time, $O(n)$ space; or counting sort for $O(n + \max(\text{score}))$). | N/A (Solved) |
+| 540 | Single Element in a Sorted Array | Unsolved (Loop Termination Bug) | Binary search forcing `mid` to even with `if (mid % 2 == 1) mid--;`. | Binary search checking `nums[mid] == nums[mid ^ 1]` in $O(\log n)$ time, $O(1)$ space. | When `nums[mid] != nums[mid+1]`, sets `end = mid` without loop progress guard, causing infinite loop; returns `nums[mid]` after loop rather than `nums[start]`. |
+| 541 | Reverse String II | Unsolved (Logic Error) | Two separate `if` blocks attempting to reverse the first $k$ characters once. | Loop stepping by $2k$ (`i += 2*k`), reversing range `[i, min(i + k - 1, n - 1)]` in $O(n)$ time, $O(n)$ space. | Only processes the first $k$ characters; never iterates through subsequent $2k$ blocks of the string. |
+| 560 | Subarray Sum Equals K | Solved (Sub-optimal) | Brute force nested loops summing subarrays starting at each index in $O(n^2)$ time, $O(1)$ space. | Prefix sum + HashMap tracking frequency of prefix sums in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 605 | Can Place Flowers | Unsolved (Logic Error) | Greedy scan checking adjacent empty plots, increments `count` and plants flower. | Greedy single pass returning `count >= n` with early exit in $O(n)$ time, $O(1)$ space. | Final check uses `if (n == count)` instead of `if (count >= n)`; returns false if more flowers than $n$ can be planted. |
+| 628 | Maximum Product of Three Numbers | Solved | Sorts array, compares `nums[n-1]*nums[n-2]*nums[n-3]` vs `nums[0]*nums[1]*nums[n-1]` in $O(n \log n)$ time, $O(1)$ space. | Single pass tracking top 3 maximums and bottom 2 minimums in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 643 | Maximum Average Subarray I | Solved | Sliding window of fixed size $k$, adds next element and removes leftmost element, tracks max average in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 645 | Set Mismatch | Unsolved (Wrong Code) | Bitwise complement mask computation (`mask ^ num`). | In-place sign negation or XOR math in $O(n)$ time, $O(1)$ space. | Wrong problem code: file contains solution for Problem 476 (Number Complement) instead of Set Mismatch. |
+| 647 | Palindromic Substrings | Unsolved (Incomplete) | Tried setting start and end pointers only around the midpoint of the string (`str.length()/2`); while loop body is empty. | Expand around center for all $2n - 1$ centers in $O(n^2)$ time, $O(1)$ space. | Logic error: only checked string middle instead of iterating over every possible center $i$; empty while loop. |
+| 657 | Robot Return to Origin | Solved | Single pass counting 'U', 'D', 'L', 'R' character moves, checks if net displacements are 0 in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 680 | Valid Palindrome II | Unsolved (Incomplete / Commented) | Commented out two pointer check with one-character lookahead. | Two pointers with helper `isPalindrome(s, left, right)` checking both skip-left and skip-right in $O(n)$ time, $O(1)$ space. | Commented out; single-character lookahead fails on inputs like `"cupuucu"` (already solved properly inside `SOLVED/Problem_28.java`). |
+| 693 | Binary Number with Alternating Bits | Solved | Iteratively checks `(n & 1)` against previous bit while right-shifting `n >>= 1` in $O(1)$ time, $O(1)$ space. | Already optimal ($O(1)$ time, $O(1)$ space; can also use bit trick `n ^ (n >> 1)` with all 1s check). | N/A (Solved) |
+| 704 (v1) | Binary Search | Solved | Standard iterative binary search on sorted array in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 704 (v2) | Binary Search | Unsolved (Empty Stub) | Empty method body `static void binary(int[] nums, int target) {}`. | Standard Binary Search in $O(\log n)$ time, $O(1)$ space. | Empty stub; no logic implemented. |
+| 713 | Subarray Product Less Than K | Unsolved (Edge Case Missed) | Sliding window multiplying `prod * nums[end]`, shrinking left when `prod >= k`. | Sliding window in $O(n)$ time, $O(1)$ space with early check `if (k <= 1) return 0`. | Missing edge case `if (k <= 1) return 0;`; for $k \le 1$, `prod >= k` is always true, causing `start` to increment past `nums.length`, throwing `ArrayIndexOutOfBoundsException`. |
+| 724 | Find Pivot Index | Solved | Computes total sum, traverses array checking if `leftSum == totalSum - leftSum - nums[i]` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 744 / 424 | Find Smallest Letter Greater Than Target / Longest Repeating Char Replacement | Unsolved (Wrong Problem Mapped) | Sliding window with frequency array solving LeetCode 424 (Character Replacement). | For LC 744: Binary search in $O(\log n)$ time, $O(1)$ space. For LC 424: sliding window in $O(n)$ time, $O(1)$ space. | File solves LeetCode 424 instead of LeetCode 744. |
+| 796 | Rotate String | Solved | Checks lengths match and `(s + s).contains(goal)` in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space; KMP for guaranteed linear time). | N/A (Solved) |
+| 825 | Friends Of Appropriate Ages | Unsolved (Logic Errors) | Sorts array, nested loops checking conditions with `requests += 2` on equality. | Age frequency bucket counting (ages 1 to 120) with prefix sums in $O(n + A)$ time, $O(A)$ space. | Conditions inverted (`arr[j] <= 0.5 * arr[i] + 7` combined with other checks); adds +2 without checking reciprocal validity; premature `break`. |
+| 826 | Most Profit Assigning Work | Unsolved (Flawed Heuristic) | For each worker, finds job with minimum difference `worker[i] - diff[j]`. | Sort jobs by difficulty, maintain running maximum profit, binary search or two pointers for workers in $O(n \log n + m \log m)$ time, $O(n)$ space. | Flawed heuristic: minimizes difference to worker ability instead of maximizing profit (an easier job may yield higher profit). |
+| 832 | Flipping an Image | Solved | Two pointers from opposite ends of each row simultaneously inverting and swapping bits in $O(n^2)$ time, $O(1)$ extra space. | Already optimal ($O(n^2)$ time, $O(1)$ space). | N/A (Solved) |
+| 838 | Push Dominoes | Unsolved (Empty Stub) | Initialized StringBuilder from dominoes string; while loop body is completely empty. | Two Pointers / Force simulation tracking nearest 'L' and 'R' in $O(n)$ time, $O(n)$ space. | Empty stub; no logic implemented. |
+| 845 | Longest Mountain in Array | Unsolved (Empty Stub) | Empty main method with commented array. | Find peak elements (`arr[i-1] < arr[i] > arr[i+1]`) and expand left/right in $O(n)$ time, $O(1)$ space. | Empty stub; no logic implemented. |
+| 852 | Peak Index in a Mountain Array | Solved | Binary search comparing `nums[mid]` with `nums[mid+1]` in $O(\log n)$ time, $O(1)$ space. | Already optimal ($O(\log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 867 | Transpose Matrix | Unsolved (Wrong Dimensions / Incomplete) | Allocates `new int[nums.length][nums[0].length]`; swap logic is commented out. | Allocate `new int[nums[0].length][nums.length]`, assign `res[j][i] = nums[i][j]` in $O(m \cdot n)$ time, $O(m \cdot n)$ space. | Allocates $M \times N$ instead of $N \times M$ (fails for non-square matrices); commented out assignment. |
+| 875 | Koko Eating Bananas | Solved | Binary search on speed range $[1, \max(\text{piles})]$, validating hours sum $\le h$ in $O(n \log(\max(\text{piles})))$ time, $O(1)$ space. | Already optimal ($O(n \log(\max))$ time, $O(1)$ space). | N/A (Solved) |
+| 881 (v1) | Boats to Save People | Solved | Sorts people weights + Two Pointers greedy pairing heaviest with lightest if within limit in $O(n \log n)$ time, $O(1)$ space. | Already optimal ($O(n \log n)$ time, $O(1)$ space; or counting sort if weights bounded). | N/A (Solved) |
+| 881 (v2) | Boats to Save People | Unsolved (Empty Stub) | Sorts array, while loop body is empty. | Sort + Two Pointers greedy in $O(n \log n)$ time, $O(1)$ space. | Empty while loop; incomplete. |
+| 912 | Sort an Array | Unsolved (Empty Stub) | Empty logic method. | Merge Sort or QuickSort with random pivot in $O(n \log n)$ time, $O(n)$ space. | Empty stub; no logic implemented. |
+| 922 | Sort Array By Parity II | Unsolved (Incomplete) | For loop with empty if statement checking `i % 2 == 0 && nums[i] % 2 != 0`. | Two Pointers (`even = 0`, `odd = 1`) swapping misplaced elements in $O(n)$ time, $O(1)$ space. | Incomplete implementation; empty if block. |
+| 925 | Long Pressed Name | Unsolved (Double Increment Bug) | Two pointers `i` on typed and `j` on name; `else if (i > 0 && typed.charAt(i) == typed.charAt(i-1)) i++;`. | Two pointers in $O(n)$ time, $O(1)$ space. | Double increment of `i`: `i++` inside `else if` block plus `i++` at end of while loop skips characters; premature `return true` before verifying rest of `typed`. |
+| 948 | Bag of Tokens | Solved | Sorts tokens + Two Pointers greedy: play smallest token face-up for score, play largest token face-down for power in $O(n \log n)$ time, $O(1)$ space. | Already optimal ($O(n \log n)$ time, $O(1)$ space). | N/A (Solved) |
+| 961 | N-Repeated Element in Size 2N Array | Solved | Frequency tracking array / comparisons in $O(n)$ time, $O(n)$ space. | Check elements at distance 1, 2, or 3 (`nums[i] == nums[i+k]`) in $O(n)$ time, $O(1)$ auxiliary space. | N/A (Solved) |
+| 977 (v1) | Squares of a Sorted Array | Solved (Sub-optimal) | Squares each element in-place, then calls `Arrays.sort()` in $O(n \log n)$ time, $O(1)$ space. | Two pointers from opposite ends filling result array from back to front in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 977 (v2) | Squares of a Sorted Array | Unsolved (Incomplete) | Squares elements in-place in the array. | Two pointers from both ends filling result array from right to left in $O(n)$ time, $O(n)$ space. | Incomplete: squares elements but does not sort or merge them in ascending order. |
+| 1021 | Remove Outermost Parentheses | Unsolved (Logic Error) | Count open brackets, on `open == 0` deletes characters in-place using `str.deleteCharAt(i)` and `str.deleteCharAt(j)`. | Single pass with StringBuilder appending characters when `open > 1` on `(` and `open > 0` on `)` in $O(n)$ time, $O(n)$ space. | Mutating StringBuilder in-place via `deleteCharAt` shifts subsequent indices, throwing `StringIndexOutOfBoundsException` and corrupting pointers. |
+| 1051 | Height Checker | Solved (Sub-optimal) | Custom Selection Sort on cloned array, then compares mismatches in $O(n^2)$ time, $O(n)$ space. | Counting sort using frequency array of size 101 in $O(n)$ time, $O(1)$ auxiliary space. | N/A (Solved) |
+| 1052 | Grumpy Bookstore Owner | Unsolved (Incomplete) | Calculates initial satisfied customers when `grumpy[i] == 0`, then sums all customers in the first window of size `minutes`. | Sliding window of size `minutes` tracking maximum additional customers saved (`customers[i]` where `grumpy[i] == 1`) in $O(n)$ time, $O(1)$ space. | Never implemented window sliding (no loop updating window) and sums all customers in window instead of only grumpy customers. |
+| 1089 | Duplicate Zeros | Solved (Sub-optimal) | Iterates through array, on encountering 0 shifts all remaining elements to the right in $O(n^2)$ time, $O(1)$ space. | Two-pass two pointers: count zeros in first pass, write elements backwards in-place in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 1108 | Defanging an IP Address | Solved | String replace `address.replace(".", "[.]")` in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space). | N/A (Solved) |
+| 1189 | Maximum Number of Balloons | Unsolved (Incomplete) | Created array of size 7 (`word.length()`), nested while loop resetting `i = 0` to count characters in `"balloon"`. | Frequency array of size 26; count b, a, l/2, o/2, n, return minimum in $O(n)$ time, $O(1)$ space. | Never calculates the bottleneck count or divides 'l' and 'o' by 2; inefficient $O(n \cdot m)$ nested loop. |
+| 1200 | Minimum Absolute Difference | Solved | Sorts array, scans adjacent pairs to find min diff, second pass collects all pairs with min diff in $O(n \log n)$ time, $O(n)$ space. | Already optimal ($O(n \log n)$ time, $O(n)$ space; or counting sort if range small). | N/A (Solved) |
+| 1217 | Minimum Cost to Move Chips to The Same Position | Unsolved (Empty Stub) | Empty method body `static void logic(int[] nums) {}`. | Count chips at even and odd positions, return `min(even, odd)` in $O(n)$ time, $O(1)$ space. | Empty stub; no logic implemented. |
+| 1295 | Find Numbers with Even Number of Digits | Solved | Loops through array, divides each number by 10 to count digits, counts even lengths in $O(n \log_{10}(\text{val}))$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space; can use range checks `10..99, 1000..9999, 100000`). | N/A (Solved) |
+| 1299 | Replace Elements with Greatest Element on Right Side | Solved | Right-to-left traversal maintaining running maximum, replacing elements in-place in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1304 | Find N Unique Integers Sum up to Zero | Solved | Generates symmetric pairs $(+i, -i)$, includes 0 if $n$ is odd in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space). | N/A (Solved) |
+| 1331 | Rank Transform of an Array | Unsolved (Incomplete) | Clones and sorts the array with `Arrays.sort(copy)`. | Sort copy, iterate to assign ranks using HashMap for unique values, map back to original array in $O(n \log n)$ time, $O(n)$ space. | Incomplete; stopped after sorting without building rank map or updating array. |
+| 1343 | Number of Sub-arrays of Size K and Average >= Threshold | Solved | Sliding window of size $k$ maintaining sum, checks `sum >= k * threshold` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1346 | Check If N and Its Double Exist | Solved (Sub-optimal) | Brute force nested loops checking $nums[i] == 2 \cdot nums[j]$ with $i \ne j$ in $O(n^2)$ time, $O(1)$ space. | HashSet single-pass checking `set.contains(2 * x)` or `x % 2 == 0 && set.contains(x / 2)` in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 1351 | Count Negative Numbers in a Sorted Matrix | Solved (Sub-optimal) | Linear nested loop traversal counting negative numbers in $O(m \cdot n)$ time, $O(1)$ space. | Staircase search starting at top-right corner moving left/down in $O(m + n)$ time, $O(1)$ space. | N/A (Solved) |
+| 1365 | How Many Numbers Are Smaller Than Current | Solved (Sub-optimal) | Brute force nested loops counting elements smaller than `nums[i]` in $O(n^2)$ time, $O(n)$ space. | Counting sort / bucket array prefix counts in $O(n + U)$ time, $O(U)$ space where $U \le 100$. | N/A (Solved) |
+| 1380 | Lucky Numbers in a Matrix | Unsolved (Logic Error) | In a single loop over $i$, finds row min of row $i$ and col max of col $i$. | Find minimum of each row and maximum of each column, find intersection element in $O(m \cdot n)$ time, $O(m + n)$ space. | Assumes matrix is square ($N \times N$); throws `ArrayIndexOutOfBoundsException` on $M \times N$ rectangular matrices; does not check if min of row equals max of column. |
+| 1389 | Create Target Array in the Given Order | Solved | Uses `ArrayList.add(index, value)` inserting at given index, then copies to array in $O(n^2)$ time, $O(n)$ space. | Already optimal for small constraints ($O(n^2)$ time, $O(n)$ space; Fenwick Tree for $O(n \log n)$). | N/A (Solved) |
+| 1394 | Find Lucky Integer in an Array | Solved (Sub-optimal) | Brute force nested loops counting frequency of each element in $O(n^2)$ time, $O(1)$ space. | Frequency array of size 501 in $O(n)$ time, $O(1)$ auxiliary space. | N/A (Solved) |
+| 1408 | String Matching in an Array | Unsolved (Empty Stub) | Empty method body `static void logic() {}`. | Sort words by length, check `words[j].contains(words[i])` for $j > i$ in $O(n^2 \cdot L)$ time, $O(n)$ space. | Empty stub; no logic implemented. |
+| 1431 | Kids With the Greatest Number of Candies | Solved | Finds max candy count in first pass, then checks `candies[i] + extraCandies >= max` in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space). | N/A (Solved) |
+| 1456 | Maximum Number of Vowels in a Substring of Given Length | Solved | Sliding window of fixed size $k$, updates vowel counter on character entry/exit in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1464 | Maximum Product of Two Elements in an Array | Solved (Sub-optimal) | Brute force nested loops checking all pairs `(nums[i]-1)*(nums[j]-1)` in $O(n^2)$ time, $O(1)$ space. | Single pass tracking the largest and second largest elements in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 1470 (v1) | Shuffle the Array | Solved | Two pointers interleaving $x_i$ and $y_i$ into a new result array in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space; or bit-packing for $O(1)$ space). | N/A (Solved) |
+| 1470 (v2) | Shuffle the Array | Solved (Logic Flaw) | Reads input with Scanner, splits into halves, attempts interleaving into answer array. | Two pointers interleaving directly into result array in $O(n)$ time, $O(n)$ space. | Logic flaw in merge: `x[f] = ans[z]` inside nested loops overwrites `x` instead of building `ans`. |
+| 1480 | Running Sum of 1d Array | Solved | In-place prefix sum accumulation `nums[i] += nums[i-1]` in $O(n)$ time, $O(1)$ auxiliary space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1482 | Minimum Number of Days to Make m Bouquets | Solved | Binary search on answer range $[1, \max(\text{bloomDay})]$ with greedy consecutive flower bouquet counter in $O(n \log(\max))$ time, $O(1)$ space. | Already optimal ($O(n \log(\max))$ time, $O(1)$ space). | N/A (Solved) |
+| 1491 | Average Salary Excluding the Minimum and Maximum Salary | Solved | Single pass computing total sum, min salary, and max salary, then computes `(sum - min - max) / (n - 2)` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1502 | Can Make Arithmetic Progression From Sequence | Solved | Sorts array `Arrays.sort(nums)` and verifies `nums[i] - nums[i-1]` is constant across all elements in $O(n \log n)$ time, $O(1)$ space. | Find min and max, compute common diff `d = (max - min) / (n - 1)`, verify with HashSet / in-place placement in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 1512 | Number of Good Pairs | Solved (Sub-optimal) | Brute force nested loops counting pairs where `nums[i] == nums[j]` in $O(n^2)$ time, $O(1)$ space. | Frequency array of size 101, accumulate pairs via `count[x]++` in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 1528 | Shuffle String | Solved | Direct index mapping into char array `ans[indices[i]] = s.charAt(i)` in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space; or cyclic swapping for $O(1)$ extra space). | N/A (Solved) |
+| 1539 (v1) | Kth Missing Positive Number | Solved | Simulates natural numbers with counter and pointer into sorted array, collects missing values in $O(n + k)$ time, $O(k)$ space. | Binary search on missing counts `nums[mid] - (mid + 1)` in $O(\log n)$ time, $O(1)$ space. | N/A (Solved) |
+| 1539 (v2) | Kth Missing Positive Number | Solved | List-based missing number counter simulation in $O(n + k)$ time, $O(n + k)$ space. | Binary search in $O(\log n)$ time, $O(1)$ space. | N/A (Solved) |
+| 1572 | Matrix Diagonal Sum | Solved | Single loop adding primary and secondary diagonals, subtracts center element if $n$ is odd in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1608 | Special Array With X Elements Greater Than or Equal X | Solved | Sorts array, checks candidate $x$ counts in $O(n \log n)$ time, $O(1)$ space. | Counting sort / suffix frequency array in $O(n)$ time, $O(n)$ space. | N/A (Solved) |
+| 1614 | Maximum Nesting Depth of the Parentheses | Solved | Single pass tracking current depth on `(` / `)` and running maximum in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1636 | Sort Array by Increasing Frequency | Unsolved (Infinite Loop) | Sorts array, then tries nested while loops with `i = j` to count frequencies. | HashMap frequency count + custom sort (sort by freq ascending, then value descending) in $O(n \log n)$ time, $O(n)$ space. | `i = j` assignment inside inner loop creates an infinite loop where loop variables fail to advance properly. |
+| 1658 | Minimum Operations to Reduce X to Zero (labeled 1685) | Unsolved (Flawed Greedy) | Scans from left until sum exceeds $x$, then scans from right until sum exceeds $x$; two-pointer loop left empty. | Invert to sliding window: find longest subarray with sum `total_sum - x` in $O(n)$ time, $O(1)$ space. | Independent greedy scans from left or right fail when optimal combination takes elements from both ends. |
+| 1662 | Check If Two String Arrays are Equivalent | Solved | Concatenates words using StringBuilder, then calls `equals()` in $O(n \cdot L)$ time, $O(n \cdot L)$ space. | Two pointers tracking word and char indices directly without allocating concatenated strings in $O(n \cdot L)$ time, $O(1)$ auxiliary space. | N/A (Solved) |
+| 1668 | Maximum Repeating Substring | Unsolved (Logic Error) | Sliding window / two pointers checking if `sequence.substring(j, i+1).equals(word)`. | Repeated string search: check if `sequence.contains(word.repeat(k))` for $k = 1, 2, \dots$ in $O(n \cdot m)$ time, $O(n)$ space. | Only counts disjoint occurrences instead of contiguous k-repeating concatenations; resets pointers incorrectly. |
+| 1672 | Richest Customer Wealth | Solved | Nested loops summing bank balances for each customer, tracks maximum in $O(m \cdot n)$ time, $O(1)$ space. | Already optimal ($O(m \cdot n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1678 | Goal Parser Interpretation | Solved | StringBuilder traversal checking "G", "()", "(al)" in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space). | N/A (Solved) |
+| 1704 | Determine if String Halves Are Alike | Solved | Counts vowels in first half and second half, checks if counts are equal in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1732 | Find the Highest Altitude | Unsolved (Incomplete / Syntax) | Commented out prefix sum array. | Single pass running sum tracking maximum altitude in $O(n)$ time, $O(1)$ space. | All code is commented out; syntax error `Math.MAX_VALUE()` instead of `Integer.MIN_VALUE`. |
+| 1750 | Minimum Length of String After Deleting Similar Ends | Solved | Two pointers moving inward, skipping matching prefix and suffix characters in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1752 | Check if Array Is Sorted and Rotated | Unsolved (Infinite Loop) | For loop with `if (i == arr.length) i = 0;` checking `arr[i] < arr[i+1]`. | Count drops where `nums[i] > nums[(i+1) % n]`; return `count <= 1` in $O(n)$ time, $O(1)$ space. | Infinite loop: `if (i == arr.length) i = 0` prevents loop termination; `arr[i+1]` throws `ArrayIndexOutOfBoundsException`. |
+| 1768 | Merge Strings Alternately | Solved | Two pointers interleaving characters from both strings into StringBuilder in $O(n + m)$ time, $O(n + m)$ space. | Already optimal ($O(n + m)$ time, $O(n + m)$ space). | N/A (Solved) |
+| 1773 | Count Items Matching a Rule | Unsolved (Empty Stub) | Commented out method signature. | Map ruleKey to index (type=0, color=1, name=2) and count matches in $O(n)$ time, $O(1)$ space. | Empty stub; no logic implemented. |
+| 1859 | Sorting the Sentence | Unsolved (Stub) | Dummy StringBuilder inserts `" hello "` and `"world "`. | Split sentence by space, place each word into array at index `word.charAt(last) - '1'`, join with spaces in $O(n)$ time, $O(n)$ space. | Dummy hardcoded strings; no word splitting or digit parsing implemented. |
+| 1876 | Substrings of Size Three with Distinct Characters | Solved | Sliding window of size 3 checking `a != b && b != c && a != c` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1903 (v1) | Largest Odd Number in String | Solved | Right-to-left scan finding first odd digit, returns substring prefix `s.substring(0, i + 1)` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 1903 (v2) | Largest Odd Number in String | Unsolved (Type Overflow / Logic Error) | Strips trailing zeros, calls `Integer.parseInt(num1)`, then searches for the largest single odd digit character. | Right-to-left scan for first odd digit, return `s.substring(0, i + 1)` in $O(n)$ time, $O(1)$ space. | `Integer.parseInt` crashes with `NumberFormatException` on strings $>10$ digits; misinterprets problem by finding largest single digit instead of largest prefix substring. |
+| 1920 | Build Array from Permutation | Solved | Allocates `new int[n]` and assigns `ans[i] = nums[nums[i]]` in $O(n)$ time, $O(n)$ space. | Math encoding trick `nums[i] += (nums[nums[i]] % n) * n` then dividing by $n$ in $O(n)$ time, $O(1)$ extra space. | N/A (Solved) |
+| 1929 | Concatenation of Array | Solved | Allocates `new int[2 * n]`, copies elements twice `ans[i] = nums[i], ans[i + n] = nums[i]` in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space). | N/A (Solved) |
+| 1967 | Number of Strings That Appear as Substrings in Word | Solved | Iterates through patterns, checks `word.contains(p)` and increments count in $O(n \cdot L)$ time, $O(1)$ space. | Already optimal for given constraints ($O(n \cdot L)$ time, $O(1)$ space). | N/A (Solved) |
+| 1984 | Minimum Difference Between Highest and Lowest of K Scores | Unsolved (Logic Error) | Nested loops checking if `nums[i] - nums[j] == k \|\| nums[i] - nums[j] == -k`. | Sort array and use sliding window of size $k$: `min(nums[i + k - 1] - nums[i])` in $O(n \log n)$ time, $O(1)$ space. | Completely misread the problem: checked if difference equals $k$ instead of finding a $k$-element subset minimizing $\max - \min$. |
+| 1991 | Find the Middle Index in Array | Solved | Calculates total sum, then scans array maintaining prefix sum to find index where `leftSum == totalSum - leftSum - nums[i]` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 2000 | Reverse Prefix of Word | Solved | Finds character index using `indexOf()`, reverses prefix with StringBuilder and appends suffix in $O(n)$ time, $O(n)$ space. | Already optimal ($O(n)$ time, $O(n)$ space). | N/A (Solved) |
+| 2037 | Minimum Number of Moves to Seat Everyone | Solved (Misplaced in UNSOLVED) | Sorts seats and students, sums absolute differences `Math.abs(seats[i] - students[i])` in $O(n \log n)$ time, $O(1)$ space. | Already optimal ($O(n \log n)$ time, $O(1)$ space; or counting sort for $O(n)$). | Working correct code mistakenly placed under UNSOLVED directory. |
+| 2108 | Find First Palindromic String in the Array | Solved | Scans words array, verifies palindrome for each word via two pointers, returns first match in $O(n \cdot L)$ time, $O(1)$ space. | Already optimal ($O(n \cdot L)$ time, $O(1)$ space). | N/A (Solved) |
+| 2149 | Rearrange Array Elements by Sign | Solved | Separates positive and negative numbers into two auxiliary arrays of size $n/2$, then interleaves them in $O(n)$ time, $O(n)$ space. | Single-pass two pointers directly writing into a result array `posIndex = 0, negIndex = 1` in $O(n)$ time, $O(n)$ space (avoids 3 passes). | N/A (Solved) |
+| 2337 | Move Pieces to Obtain a String | Unsolved (Incomplete / Syntax) | Commented out two pointer loop with syntax error `j;`. | Two Pointers skipping `'_'`, checking matching characters and valid movements ($L$ cannot move right, $R$ cannot move left) in $O(n)$ time, $O(1)$ space. | Incomplete / abandoned with syntax error. |
+| 2379 | Minimum Colors to Get K Consecutive Black Blocks | Solved | Sliding window of size $k$ counting white blocks 'W', tracks minimum in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 2410 | Maximum Matching of Players With Trainers | Solved | Sorts both arrays + Two Pointers greedy matching smallest available trainer $\ge$ player skill in $O(n \log n + m \log m)$ time, $O(1)$ space. | Already optimal ($O(n \log n + m \log m)$ time, $O(1)$ space). | N/A (Solved) |
+| 2419 | Longest Subarray With Maximum Bitwise AND | Solved | Finds maximum value in array, then scans to find length of longest contiguous subarray of that max value in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 2461 | Maximum Sum of Distinct Subarrays With Length K | Unsolved (Incomplete / Syntax) | Commented out sliding window with HashMap; has syntax error `if(map)`. | Sliding window of fixed size $k$ with HashMap tracking counts and sum, valid when `map.size() == k` in $O(n)$ time, $O(k)$ space. | Incomplete / abandoned with syntax error. |
+| 2486 | Append Characters to String to Make Subsequence | Solved | Two pointers traversing $s$ and $t$, matching prefix of $t$ in $s$, returns $t.\text{length}() - j$ in $O(n + m)$ time, $O(1)$ space. | Already optimal ($O(n + m)$ time, $O(1)$ space). | N/A (Solved) |
+| 2491 | Divide Players Into Teams of Equal Skill | Solved | Sorts array + Two Pointers pairing smallest and largest, verifies equal team skill and sums chemistry products in $O(n \log n)$ time, $O(1)$ space. | Frequency counting array in $O(n + U)$ time, $O(U)$ space where $U$ is max skill. | N/A (Solved) |
+| 2529 | Maximum Count of Positive Integer and Negative Integer | Solved (Sub-optimal) | Linear scan counting negative and positive integers in $O(n)$ time, $O(1)$ space. | Binary search to find first positive index and last negative index in $O(\log n)$ time, $O(1)$ space (since array is sorted). | N/A (Solved) |
+| 2540 | Minimum Common Value | Unsolved (Logic Error) | Two pointers traversing sorted arrays `nums1` and `nums2`. | Two Pointers returning `nums1[i]` immediately upon match in $O(n + m)$ time, $O(1)$ space. | Prints match but does not `return` or `break`, continues the loop, and unconditionally prints `-1` at the end. |
+| 2570 | Merge Two 2D Arrays by Summing Values | Solved | Two pointers merging sorted ID pairs into ArrayList, summing values on matching ID in $O(n + m)$ time, $O(n + m)$ space. | Already optimal ($O(n + m)$ time, $O(n + m)$ space). | N/A (Solved) |
+| 2678 | Number of Senior Citizens | Solved | Parses characters at index 11 and 12 of each passenger record, checks if age $> 60$ in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 2839 | Check if Strings Can be Made Equal With Operations I | Solved | Direct character comparisons between even indices $(0, 2)$ and odd indices $(1, 3)$ in $O(1)$ time, $O(1)$ space. | Already optimal ($O(1)$ time, $O(1)$ space). | N/A (Solved) |
+| 2841 | Maximum Sum of Almost Unique Subarray | Solved | Sliding window of size $k$ with HashMap tracking frequency of elements, maintains running sum and checks `map.size() >= m` in $O(n)$ time, $O(k)$ space. | Already optimal ($O(n)$ time, $O(k)$ space). | N/A (Solved) |
+| 2942 | Find Words Containing Character | Solved | Iterates through words array calling `word.indexOf(x)`, collects matching indices in $O(n \cdot L)$ time, $O(n)$ space. | Already optimal ($O(n \cdot L)$ time, $O(n)$ space). | N/A (Solved) |
+| 3074 | Apple Redistribution into Boxes | Solved | Sums all apples, sorts box capacities descending, greedily fills largest boxes until all apples are packed in $O(m \log m + n)$ time, $O(1)$ space. | Already optimal ($O(m \log m + n)$ time, $O(1)$ space; or counting sort for $O(m + n)$). | N/A (Solved) |
+| 3110 | Score of a String | Solved | Traverses string summing absolute difference of adjacent ASCII character values in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 3442 | Maximum Difference Between Even and Odd Frequency I | Solved | Frequency array of size 26, finds maximum odd frequency and minimum even frequency, returns difference in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 3880 | Minimum Absolute Distance Between 1 and 2 (Custom) | Solved (Sub-optimal) | Brute force nested loops checking all index pairs with `nums[i]==1 && nums[j]==2` in $O(n^2)$ time, $O(1)$ space. | Single pass tracking last seen index of 1 and last seen index of 2 in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
+| 3884 | Symmetric Character Positions (Custom) | Solved | Single loop comparing characters at symmetric positions `i` and `n - 1 - i` in $O(n)$ time, $O(1)$ space. | Already optimal ($O(n)$ time, $O(1)$ space). | N/A (Solved) |
+| 3904 | Partition Array into Disjoint Intervals (LC 915 style) | Solved | Prefix max array and suffix min array, finding partition where `max[i] <= min[i+1]` in $O(n)$ time, $O(n)$ space. | Single pass tracking running maximum and partition boundary maximum in $O(n)$ time, $O(1)$ space. | N/A (Solved) |
 ---
 
-## 🏆 CONTEST QUESTIONS (6 files)
+## 🔍 Key Insights & Common Mistake Patterns
 
-| Contest | Q | Status | Approach |
-|---------|---|--------|----------|
-| Biweekly 172 Q2 | Max Sum Div 3 | ⚠️ O(n³) | Triple nested loop — will TLE |
-| Biweekly 172 BS Q1 | Binary Search practice | ❌ Bug | Missing mid recalc, infinite loop |
-| Biweekly 173 Q1 | Reverse K chars | ✅ | StringBuilder reverse — clean |
-| Weekly 488 Q1 | Count Dominant | ✅ | Nested loop O(n²) — correct |
-| Weekly 490 Q1 | Player Score Diff | ⚠️ | XOR toggle — uncertain logic |
-| Weekly 492 Q1 | Min Index ≥ Target | ✅ | Linear scan — correct |
+### 1. 🚀 Immediate "Quick Wins" (Move from `UNSOLVED` to `SOLVED`)
+The following files in `src/UNSOLVED/leetcode/` actually have correct working logic and should be moved:
+- **Problem 121 (Best Time to Buy and Sell Stock)**: `src/UNSOLVED/leetcode/Problem_121.java` has a completely correct one-pass $O(n)$ greedy algorithm tracking `lowprice` and `profit`.
+- **Problem 2037 (Minimum Number of Moves to Seat Everyone)**: `src/UNSOLVED/leetcode/Problem_2037.java` correctly sorts both arrays and accumulates the sum of `abs(seats[i] - students[i])` in $O(n \log n)$.
+- **Problem 442 (Find All Duplicates in an Array)**: `src/UNSOLVED/leetcode/Problem_442.java` works using an auxiliary frequency array in $O(n)$ time. (To make it optimal, use in-place sign negation for $O(1)$ auxiliary space).
+- **Problem 448 (Find All Numbers Disappeared in an Array)**: `src/UNSOLVED/leetcode/Problem_448.java` works in $O(n \log n)$ time using sort + scan. (Optimal is in-place sign negation for $O(n)$ time).
 
----
+### 2. ⚠️ Subtle Logic Flaws in "SOLVED" Files
+These files are inside `SOLVED/` but contain critical edge case bugs:
+- **Problem 219 (Contains Duplicate II)**: The code in `src/SOLVED/leetcode/Problem_219.java` calls `Arrays.sort(nums)`. Sorting destroys the original indices, so `j - i <= k` checks index distance in the *sorted* array, not the original array!
+  - *Fix*: Use a sliding window HashSet of size $k$.
+- **Problem 229 (Majority Element II)**: The code in `src/SOLVED/leetcode/Problem_229.java` uses `break` as soon as it finds the first element with frequency $> n/3$. However, in Majority Element II, there can be up to **two** valid majority elements! The `break` causes it to miss the second element.
+  - *Fix*: Remove `break` or use Boyer-Moore Voting Algorithm with 2 candidates.
+- **Problem 1470b (Shuffle the Array)**: In `src/SOLVED/leetcode/Problem_1470b.java`, the inner assignment loop uses `x[f] = ans[z]` instead of assigning into `ans[z]`.
+  - *Fix*: Refer to `src/SOLVED/leetcode/Problem_1470a.java`, which is correctly implemented.
 
-## 📈 TOPIC-WISE BREAKDOWN
-
-| Topic | Solved | Unsolved | Total |
-|-------|--------|----------|-------|
-| **Arrays (Basic)** | 45 | 8 | 53 |
-| **Binary Search** | 15 | 4 | 19 |
-| **Two Pointer** | 18 | 3 | 21 |
-| **Sliding Window** | 8 | 1 | 9 |
-| **Strings** | 16 | 5 | 21 |
-| **Bit Manipulation** | 6 | 1 | 7 |
-| **Sorting** | 8 | 2 | 10 |
-| **Greedy** | 6 | 0 | 6 |
-| **Math** | 5 | 1 | 6 |
-| **Matrix** | 5 | 3 | 8 |
-| **Dynamic Programming** | 0 | 3 | 3 |
-| **Stack** | 0 | 1 | 1 |
-| **HashMap/HashSet** | 2 | 2 | 4 |
-
----
-
-## 💪 STRENGTHS
-
-1. **Binary Search** — Solved advanced problems: 875 (Koko Bananas), 1482 (Bouquets), 33 (Rotated Array), 34 (First/Last Position). You understand binary search on answer space
-2. **Two Pointer** — Excellent grasp: 167, 26, 27, 283, 881, 948 all clean
-3. **Sliding Window** — Consistent correct implementations: 643, 1343, 1456, 2379, 209, 1876
-4. **Bit Manipulation** — Naturally reach for XOR (136, 461, 476, 693). Solid
-5. **Greedy** — 122, 455, 948, 2410 show good greedy intuition
-6. **Volume** — 127+ solved problems is solid work
-
----
-
-## ⚠️ WEAKNESSES & GAPS
-
-1. **Dynamic Programming** — Zero DP solved. 198, 152, 42 all needed DP and you struggled
-2. **Stack** — Problem 20 used counters instead of Stack. Learn Stack-based approaches
-3. **HashMap optimization** — Many O(n²) solutions (1, 169, 217, 560) could be O(n) with HashMap
-4. **Over-reliance on Brute Force** — ~30% of solved use O(n²) where better exists
-5. **Integer Overflow** — Problem 69 fails because mid*mid overflows int. Use long
-6. **Edge Cases** — Problem 66 crashes on {9,9}, Problem 229 breaks early
-
----
-
-## 🎯 RECOMMENDED NEXT STEPS
-
-### Priority 1: Fix Misplaced Files
-- **Move to SOLVED**: Problem 121, 442, 2037 (these work correctly)
-- **Move to UNSOLVED**: Problem 219 (sort breaks original indices)
-
-### Priority 2: Learn Dynamic Programming
-1. 70 — Climbing Stairs (1D DP intro)
-2. 198 — House Robber (you already attempted)
-3. 152 — Maximum Product Subarray
-4. 322 — Coin Change
-5. 300 — Longest Increasing Subsequence
-
-### Priority 3: Learn Stack
-1. 20 — Valid Parentheses (redo with Stack)
-2. 155 — Min Stack
-3. 739 — Daily Temperatures
-
-### Priority 4: Use HashMap More
-Re-solve these with HashMap for O(n):
-- Problem 1 (Two Sum), 169 (Majority), 217 (Duplicate), 560 (Subarray Sum K)
-
-### Priority 5: Complete Easy Unsolved
-Quick wins: 66, 448, 1189, 1732, 1773, 1859
-
----
-
-## 🔥 CODING PATTERNS OBSERVED
-
-1. **Naming**: You consistently name methods `logic()` — use descriptive names like `findTarget()`, `maxProfit()`
-2. **Testing**: Hardcoded test cases in main() — consider multiple test cases
-3. **Code Style**: Spaces before semicolons (`int i = 0 ;`) — non-standard but works
-4. **Comments**: Very few — adding algorithm notes helps review later
-5. **Data Structures**: Heavily favor arrays/ArrayList. Branch into HashMap, HashSet, Stack, Queue
-
----
-
-> **Overall**: Strong foundation in arrays, binary search, two pointers, sliding window. Next level-up requires mastering DP, Stack, and HashMap optimizations. Keep grinding! 🚀
+### 3. 🛑 Common Failure Modes in UNSOLVED Problems
+- **Infinite Loops**:
+  - `Problem_1752_UNSOLVED.java`: Has `if (i == arr.length) i = 0;` inside a `for (int i = 0; i <= arr.length; i++)` loop, preventing loop exit.
+  - `Problem_1636.java`: `i = j` assignment inside the inner while loop corrupts pointer progression.
+  - `Problem_34_unsolved.java`: `start = mid` when `nums[mid] == target` hangs when `start == mid`.
+- **Type Overflows**:
+  - `Problem_43.java`: Calling `Integer.parseInt()` on large numeric strings causes `NumberFormatException` (strings up to 200 digits).
+  - `Problem_69.java`: `mid * mid` overflows signed 32-bit `int` when $x$ is large, resulting in negative values.
+  - `Problem_1903.java (v2)`: `Integer.parseInt()` overflows on long strings; also searches for max single digit instead of largest prefix.
+- **Wrong Data Structure**:
+  - `Problem_20.java`: Attempted to validate parentheses using three separate integer counters (`q`, `sq`, `c`). Counters cannot verify nesting order (e.g. fails on `"([)]"`). A **Stack** is required.
+  - `Problem_1021.java`: Mutating `StringBuilder` via `deleteCharAt(i)` in-place while iterating shifts character indices and throws exceptions.
+- **Edge Cases Missed**:
+  - `Problem_713.java`: Missing `if (k <= 1) return 0;`. When $k=0$ or $k=1$, `prod >= k` is always true, causing `start` to advance out of array bounds.
+  - `Problem_605.java`: Checking `if (n == count)` instead of `if (count >= n)`. Fails if more flowers can be placed than requested.
+- **Double Increment Bug**:
+  - `Problem_925.java`: In the long-press branch, `i++` is executed inside the `else if` block AND another `i++` runs at the bottom of the while loop, skipping characters.
