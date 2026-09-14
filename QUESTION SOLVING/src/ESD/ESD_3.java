@@ -2,18 +2,22 @@ package ESD;
 
 import com.sun.jdi.connect.Connector;
 
+import java.util.Arrays;
+
 public class ESD_3 {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,56,5} ;
-        int target = 4 ;
-        System.out.println(logic1( arr , target));
-    }
-    static String  logic1(int[] nums ,int  target){
-        for (int i = 0; i < nums.length ; i++) {
-            if(nums[i] == target ){
-                return "found" ;
+        int[] arr  = {1,2,3,4,5,6,7,8} ;
+        int k  = 5 ;
+
+        for (int i = 0; i < k; i++) {
+            int temp  = arr[arr.length-1] ;
+            for (int j = arr.length-1 ; j > 0; j--) {
+                arr[j]  = arr[j-1] ;
+
             }
+            arr[0]  = temp ;
+
         }
-        return "notfound" ;
+        System.out.println(Arrays.toString(arr));
     }
 }
