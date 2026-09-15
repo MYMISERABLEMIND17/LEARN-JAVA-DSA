@@ -1,4 +1,4 @@
-import java.util.HashMap;
+package SOLVED;
 
 public class Problem_128 {
     public static void main(String[] args) {
