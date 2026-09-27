@@ -3,39 +3,46 @@ import java.util.HashMap;
 public class Problem_2461 {
     public static void main(String[] args) {
 
-
-        int[] nums = {1,1,2,3,4} ;
-        int  k = 3  ;
-        long maxsum = 0 ;
-        long  sum =  0 ;
         HashMap<Integer , Integer> map = new HashMap<>() ;
-        int start =  0 ;
-        int end  = k -1 ;
+        int[] nums = {1,5,4,2,9,9,9,} ;
+        int  k = 3  ;
 
-        for (int i = 0; i <= end; i++) {
-            map.put(nums[i] , map.getOrDefault(nums[i] , 0 ) +1  ) ;
-            sum = sum + nums[i] ;
+        int sum = 0 ;
+        int maxsum = 0  ;
+        for (int i = 0; i < k; i++) {
+            int num = nums[i] ;
+            map.put(num , map.getOrDefault(num , 0 ) +1 ) ;
+            sum += nums[i] ;
         }
-        int count  = 0 ;
+        System.out.println(sum);
+        int end =  k-1 ;
+        int start = 0 ;
 
-        while(end  < nums.length-1 ){
-            if(map.size() == k ){
-                count++ ;
-                maxsum = Math.max(sum , maxsum) ;
+        while (end  < nums.length){
+            int ns = nums[start] ;
+
+            // check the size
+            if(map.size() == k ) {
+                maxsum = Math.max(maxsum , sum) ;
             }
 
-            map.put(nums[start] , map.getOrDefault(nums[start] , 0 )  - 1 ) ;
-            int freq = map.getOrDefault(nums[start] , 0) ;
-            if(freq == 0  ){
-                map.remove(nums[start]) ;
+            map.put( ns , map.getOrDefault(ns , 0 ) -1 )  ;
+            int val = map.getOrDefault(ns , 0) ;
+            if(val == 0 ){
+                map.remove(ns) ;
             }
-            sum -= nums[start] ;
-            start++  ;
+            sum = sum - ns ;
+            start++ ;
             end++ ;
-            sum += nums[end] ;
-            map.put(nums[end] , map.getOrDefault(nums[end] , 0 ) + 1 ) ;
+            if (end < nums.length) {
+                int ne = nums[end];       // ✅ FIXED
+
+                sum += ne;
+                map.put(ne, map.getOrDefault(ne, 0) + 1);
+            }
         }
 
         System.out.println(maxsum);
+
     }
 }
